@@ -1,14 +1,16 @@
 \documentclass[a4paper,openright,12pt]{article}
 %%[11pt,twocolumn]
 \title{\LARGE MayaLeng{}}
-\author{\normalsize Douglas Figueroa \\ Alexander Baquiax}
-\usepackage[spanish]{babel}
+\author{\normalsize Douglas Figueroa \\ \normalsize Alexander Baquiax}
 \date{} 
 \usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amssymb}
 
 \begin{document}
 \maketitle
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{\I'ndice de tablas}
 
 \section{\'Indice}
 \subsection{\'Indice de Figuras}
@@ -41,6 +43,46 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 
 \section{Estudio de Factibilidad}
 \subsection{Factibilidad Funcional}
+\begin{table}[h]
+	\resizebox*{14cm}{!}{
+	\begin{tabular}{|r|c|c|c|c|}
+	\hline
+	Funcionalidad & Google Translate & Glosbe.com & Profesor & MayaLeng\\
+	\hline
+	Traducci\'on de palabras & \checkmark & \checkmark & \checkmark & \checkmark\\
+	\hline
+	Traducci\'on	 bidireccional & \checkmark & x & \checkmark & x\\
+	\hline
+	Traducci\'on de frases  & \checkmark & x & \checkmark & \checkmark\\
+	\hline
+	Traducci\'on precisa & \checkmark & x & \checkmark & \checkmark\\
+	\hline
+	Herramienta de traducci\'on de documentos & \checkmark & x & \checkmark & \checkmark\\
+	\hline
+	\end{tabular}}
+\caption{Comparativa de Funcionalidades}
+\end{table}
+
+\begin{table}[h]
+	\resizebox*{14cm}{!}{
+	\begin{tabular}{|r|c|c|c|c|}
+	\hline
+	Caracter\'istica & Google Translate & Glosbe.com & Profesor & MayaLeng\\
+	\hline
+	Descripci\'on de palabras & x & \checkmark & \checkmark & x\\
+	\hline
+	Intuitivo & \checkmark & x & \checkmark & \checkmark\\
+	\hline
+	Es gratis  & \checkmark & \checkmark & x & \checkmark\\
+	\hline
+	Siempre disponible & \checkmark & \checkmark & x & \checkmark\\
+	\hline
+	F\'acil de obtener/contactar & \checkmark & \checkmark & x & \checkmark\\
+	\hline
+	\end{tabular}}
+\caption{Comparativa de Caracter\'isticas}
+\end{table}
+
 \subsection{Factibilidad T\'ecnica}
 Pretendemos aprovechar el apogeo de los m\'oviles y tratar de crear una buena oportunidad para introducir nuestro proyecto.\\
 
@@ -59,9 +101,52 @@ La idea es construir un API al que se le pueda dar como input un texto, p\'arraf
 El core de traducci\'on ser\'a hecho en Java,  usando herramientas de parseo y an\'alisis sint\'actico como Flex.
 
 \subsection{Factibilidad Econ\'omica}
+Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proyecto, hemos estimado los siguientes costos para el desarrollo de la aplicaci\'on, los gastos son a nivel de costo de servidor, por compra del dominio, licencias para subir aplicaci\'on y gastos en papel, en impresi\'on del manual de usuario.\\
+
+\begin{table}[h]
+	\resizebox*{15cm}{!}{
+	\begin{tabular}{|l|c|r|}
+	\hline
+	Tarea & D\'ias Trabajados & Costo (Q.)\\
+	\hline
+	Configurar servicios iniciales.\\
+	Montar la base de datos del proyecto anterior.
+	& 7 
+	& 70\\
+	\hline
+	Generar la documentación adecuada del algoritmo de traducción.\\
+	Extraer las reglas de la gramática de libros y textos.
+	& 7 
+	& 130\\
+	\hline
+	Lanzar primera versión del API.\\
+	Traducción de oraciones sencillas.\\
+	App consumiendo API.
+	& 7
+	& 192\\
+	\hline
+	Documentación final y manual de usuario.\\
+	Lanzamiento final.
+	& 7
+	& 50\\
+	\hline
+	Total 
+	&
+	& 442\\
+	\hline
+	\end{tabular}}
+\caption{Factibilidad Econ\'omica}
+\end{table}
+
 \newpage
 
 \section{Anexo}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=1.2\textwidth]{Gantt}
+  \caption{Diagrama de Gantt}
+  \label{fig:gantt}
+\end{figure}
 \newpage
 
 \section{Glosario}

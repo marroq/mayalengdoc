@@ -1,13 +1,13 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Introducci\'on}{5}
-\contentsline {section}{\numberline {2}Objetivos}{6}
-\contentsline {subsection}{\numberline {2.1}Objetivo General}{6}
-\contentsline {subsection}{\numberline {2.2}Objetivos Espec\'ificos}{6}
-\contentsline {section}{\numberline {3}El Problema}{7}
-\contentsline {subsection}{\numberline {3.1}¿Qu\'e es el problema?}{7}
-\contentsline {section}{\numberline {4}Estudio de Factibilidad}{8}
-\contentsline {subsection}{\numberline {4.1}Factibilidad Funcional}{8}
-\contentsline {subsection}{\numberline {4.2}Factibilidad T\'ecnica}{8}
-\contentsline {subsection}{\numberline {4.3}Factibilidad Econ\'omica}{9}
-\contentsline {section}{\numberline {5}Anexo}{10}
-\contentsline {section}{\numberline {6}Glosario}{11}
+\contentsline {section}{\numberline {1}Introducci\'on}{4}
+\contentsline {section}{\numberline {2}Objetivos}{5}
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{5}
+\contentsline {subsection}{\numberline {2.2}Objetivos Espec\'ificos}{5}
+\contentsline {section}{\numberline {3}El Problema}{6}
+\contentsline {subsection}{\numberline {3.1}¿Qu\'e es el problema?}{6}
+\contentsline {section}{\numberline {4}Estudio de Factibilidad}{7}
+\contentsline {subsection}{\numberline {4.1}Factibilidad Funcional}{7}
+\contentsline {subsection}{\numberline {4.2}Factibilidad T\'ecnica}{7}
+\contentsline {subsection}{\numberline {4.3}Factibilidad Econ\'omica}{8}
+\contentsline {section}{\numberline {5}Anexo}{9}
+\contentsline {section}{\numberline {6}Glosario}{10}

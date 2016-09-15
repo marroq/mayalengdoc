@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  14 SEP 2016 21:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  14 SEP 2016 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,8 +221,8 @@ LaTeX Info: Redefining \% on input line 1.
  [4
 
 ]
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -231,13 +231,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [6]
 Missing character: There is no Â in font cmbx12!
 Missing character: There is no ¿ in font cmbx12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
@@ -252,30 +252,25 @@ Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 [7]
-Overfull \hbox (8.34383pt too wide) in paragraph at lines 55--71
+Overfull \hbox (8.34383pt too wide) in paragraph at lines 57--73
 [][] 
  []
 
 
-Overfull \hbox (8.35152pt too wide) in paragraph at lines 75--91
+Overfull \hbox (8.35152pt too wide) in paragraph at lines 77--93
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
  []
 
 
@@ -288,21 +283,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ± in font cmr12!
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
-[8]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ± in font cmr12!
+
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
@@ -313,7 +308,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
@@ -330,29 +330,29 @@ Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 
-Overfull \hbox (36.81297pt too wide) in paragraph at lines 115--146
+Overfull \hbox (36.81297pt too wide) in paragraph at lines 117--148
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
 [9] <Gantt.png, id=36, 1207.51125pt x 531.9875pt>
 File: Gantt.png Graphic file (type png)
  <use Gantt.png>
-Package pdftex.def Info: Gantt.png used on input line 154.
+Package pdftex.def Info: Gantt.png used on input line 156.
 (pdftex.def)             Requested size: 467.99881pt x 206.18361pt.
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 154--155
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 156--157
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
 [10 <./Gantt.png>]
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
  [11] (./Mayaleng.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -370,7 +370,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Mayaleng.pdf (11 pages, 122198 bytes).
+Output written on Mayaleng.pdf (11 pages, 122276 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

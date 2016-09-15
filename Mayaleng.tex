@@ -1,23 +1,30 @@
 \documentclass[a4paper,openright,12pt]{article}
-%%[11pt,twocolumn]
-\title{\LARGE MayaLeng{}}
+\title{\LARGE MayaLeng}
 \author{\normalsize Douglas Figueroa \\ \normalsize Alexander Baquiax}
-\date{} 
+\date{}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{amssymb}
+\usepackage{fancyhdr}
 
 \begin{document}
 \maketitle
 \renewcommand{\tablename}{Tabla}
-\renewcommand{\listtablename}{\I'ndice de tablas}
-
-\section{\'Indice}
-\subsection{\'Indice de Figuras}
-\subsection{\'Indice de Tablas}
+\renewcommand{\listtablename}{\'Indice de tablas}
 
 \newpage
 
+\tableofcontents
+
+\cleardoublepage
+\listoffigures
+
+\cleardoublepage
+\listoftables
+
+\newpage
+
+\pagestyle{fancy}
 \section{Introducci\'on}
 \newpage
 
@@ -152,4 +159,5 @@ Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proye
 \section{Glosario}
 \newpage
 
+\pagestyle{fancy}
 \end{document}

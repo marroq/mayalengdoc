@@ -4,6 +4,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
 
 \begin{document}
 \renewcommand{\tablename}{Tabla}
@@ -13,15 +15,14 @@
 \newpage
 
 \begin{titlepage}
-	
 	\begin{center}
 		\vspace*{-1in}
 		\begin{figure}[htb]
 			\begin{center}
-				\includegraphics[width=8cm]{ug}
+				\includegraphics[width=10cm]{ug}
 			\end{center}
 		\end{figure}
-		\vspace*{0.2in}
+		\vspace*{0.1in}
 		\begin{Large}
 			Ingenier\'ia en Sistemas, Inform\'atica y \\Ciencias de la Computaci\'on\\
 		\end{Large}
@@ -29,28 +30,26 @@
 		\begin{Large}
 			Seminario Profesional II\\
 		\end{Large}
-		\vspace*{0.9in}
+		\vspace*{1.6in}
 		\begin{LARGE}
 			\textbf{\LARGE MAYALENG} \\
 		\end{LARGE}
-		\vspace*{0.9in}
+		\vspace*{1.6in}
 		\begin{large}
 			Autores:\\
 			Douglas Figueroa \\
 			Alexander Baquiax
 		\end{large}
-		\vspace*{0.5in}
+		\vspace*{0.3in}
 		\\
-		\vspace*{0.1in}
+		\rule{90mm}{0.1mm}\\
 		\begin{large}
 			Supervisado por: \\
 			Ing. Jack Trachtenberg \\
 			Ing. Axel Benavides
 		\end{large}
 	\end{center}
-	
 \end{titlepage}
-
 \newpage
 
 \tableofcontents
@@ -66,6 +65,9 @@
 \pagestyle{fancy}
 \rfoot{MayaLeng}
 \section{Introducci\'on}
+Mayaleng m\'as que una aplicaci\'on es un algoritmo con la capacidad de recibir un input, en nuestro caso, una palabra, una frase, un p\'arrafo, una cantidad de texto muy grande, en espa\~nol y retornar un output, (el texto de entrada), en una lengua maya. \\
+
+Una herramienta de traducci\'on y para conocimiento de la cultura de Guatemala.
 \newpage
 
 \section{Objetivos}
@@ -75,12 +77,12 @@ Crear una herramienta de traducci\'on de lenguas mayas.
 \begin{itemize}
     \item Crear una aplicaci\'on m\'ovil (Android y iOS) para traducir lenguas mayas.
     \item Dar a conocer la cultura de nuestro pa\'is Guatemala.
-    \item Brindar la capacidad a profesores y personas en general de traducir documentos para facilitar su trabajo en los lugares d\'onde imparten clases dentro de nuestro pa\'is y los cuales no dominan el espanol.
+    \item Brindar la capacidad a profesores y personas en general de traducir documentos para facilitar su trabajo en los lugares d\'onde imparten clases dentro de nuestro pa\'is y los cuales no dominan el espa\~nol.
 \end{itemize}
 \newpage
 
 \section{El Problema}
-\subsection{¿Qu\'e es el problema?}
+\subsection{¿Cuál es el problema?}
 El problema analizado para querer desarrollar esta herramienta fue desde un punto de vista cultural, ya que en Guatemala existen muchas lenguas mayas, de las cuales pocas personas en el pa\'is dominan como m\'inimo una. Estas forman parte de nuestro patrimonio cultural. Alrededor del mundo Guatemala es conocida por los puntos tur\'isticos con los que contamos, regularmente estos se encuentran en los departamentos donde al menos existe una lengua Maya.  Como guatemaltecos deber\'iamos de poder comunicarnos con la gente de nuestro pa\'is, ya que en algunos departamentos no se habla mucho en espa\~nol sino que hablan en una lengua maya, sin embargo ese no es el caso. No hemos encontrado tantas herramientas claras que nos faciliten dicha tarea, queremos ser de los primeros en brindar dicha herramienta.\\
 
 En este momento sugerimos kaqchikel, la forma en que solucionamos el problema de la comunicación es teniendo una aplicación m\'ovil la cu\'al har\'a una traducción en nuestro idioma natal a kaqchikel, sencillamente quien utilice la aplicación deberá ingresar el texto y en una casilla aparte aparecer\'a la traducci\'on del texto, algo similar a google translate.\\
@@ -190,13 +192,14 @@ Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proye
 \section{Anexo}
 \begin{figure}[h]
   \centering
-    \includegraphics[width=1.2\textwidth]{Gantt}
+    \includegraphics[width=1.0\textwidth]{Gantt}
   \caption{Diagrama de Gantt}
   \label{fig:gantt}
 \end{figure}
 \newpage
 
 \section{Glosario}
+\textbf{Kaqchikel: } lengua maya, parte de la familia lingüística mayense.
 \newpage
 
 \pagestyle{fancy}

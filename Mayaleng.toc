@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Objetivo General}{5}
 \contentsline {subsection}{\numberline {2.2}Objetivos Espec\'ificos}{5}
 \contentsline {section}{\numberline {3}El Problema}{6}
-\contentsline {subsection}{\numberline {3.1}¿Qu\'e es el problema?}{6}
+\contentsline {subsection}{\numberline {3.1}\IeC {\textquestiondown }Cu\IeC {\'a}l es el problema?}{6}
 \contentsline {section}{\numberline {4}Estudio de Factibilidad}{7}
 \contentsline {subsection}{\numberline {4.1}Factibilidad Funcional}{7}
 \contentsline {subsection}{\numberline {4.2}Factibilidad T\'ecnica}{7}

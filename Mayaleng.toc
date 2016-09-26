@@ -7,7 +7,13 @@
 \contentsline {subsection}{\numberline {3.1}\IeC {\textquestiondown }Cu\IeC {\'a}l es el problema?}{6}
 \contentsline {section}{\numberline {4}Estudio de Factibilidad}{7}
 \contentsline {subsection}{\numberline {4.1}Factibilidad Funcional}{7}
-\contentsline {subsection}{\numberline {4.2}Factibilidad T\'ecnica}{7}
-\contentsline {subsection}{\numberline {4.3}Factibilidad Econ\'omica}{8}
-\contentsline {section}{\numberline {5}Anexo}{9}
-\contentsline {section}{\numberline {6}Glosario}{10}
+\contentsline {subsubsection}{\numberline {4.1.1}Encuesta}{7}
+\contentsline {subsubsection}{\numberline {4.1.2}Resultados de Encuesta}{7}
+\contentsline {subsection}{\numberline {4.2}Factibilidad T\'ecnica}{8}
+\contentsline {subsubsection}{\numberline {4.2.1}Conclusi\IeC {\'o}n}{9}
+\contentsline {subsection}{\numberline {4.3}Factibilidad Econ\'omica}{9}
+\contentsline {subsubsection}{\numberline {4.3.1}Conclusi\IeC {\'o}n}{9}
+\contentsline {section}{\numberline {5}Anexo}{10}
+\contentsline {subsection}{\numberline {5.1}Calendarizaci\IeC {\'o}n}{10}
+\contentsline {subsection}{\numberline {5.2}Diagrama Entidad-Relaci\IeC {\'o}n}{11}
+\contentsline {section}{\numberline {6}Glosario}{12}

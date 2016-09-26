@@ -6,6 +6,7 @@
 \usepackage{fancyhdr}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
 
 \begin{document}
 \renewcommand{\tablename}{Tabla}
@@ -30,11 +31,16 @@
 		\begin{Large}
 			Seminario Profesional II\\
 		\end{Large}
-		\vspace*{1.6in}
+		\vspace*{0.9in}
 		\begin{LARGE}
 			\textbf{\LARGE MAYALENG} \\
+			\begin{figure}[htb]
+				\begin{center}
+					\includegraphics[width=4cm]{ml}
+				\end{center}
+			\end{figure}
 		\end{LARGE}
-		\vspace*{1.6in}
+		\vspace*{0.9in}
 		\begin{large}
 			Autores:\\
 			Douglas Figueroa \\
@@ -63,7 +69,8 @@
 \newpage
 
 \pagestyle{fancy}
-\rfoot{MayaLeng}
+\rfoot{\includegraphics[width=.08\textwidth]{ml}}
+\lfoot{MayaLeng}
 \section{Introducci\'on}
 Mayaleng m\'as que una aplicaci\'on es un algoritmo con la capacidad de recibir un input, en nuestro caso, una palabra, una frase, un p\'arrafo, una cantidad de texto muy grande, en espa\~nol y retornar un output, (el texto de entrada), en una lengua maya. \\
 
@@ -92,6 +99,27 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 
 \section{Estudio de Factibilidad}
 \subsection{Factibilidad Funcional}
+\subsubsection{Encuesta}
+\begin{enumerate}
+	\item ¿Le gustaría aprender una lengua maya?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Al visitar un departamento en Guatemala le gustaría poder comunicarse con personas que solamente conocen una lengua maya?	\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Cree que aprender sobre la cultura de nuestro país es importante?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Usaría una aplicación móvil para aprender cosas básicas sobre lenguas mayas?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Pagaría por la aplicación?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Estaría dispuesto a invertir 10 minutos al día para conocer una lengua maya?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	
+\end{enumerate}
+\subsubsection{Resultados de Encuesta}
+Hola\\
+Hola\\
+Hola\\
+
 \begin{table}[h]
 	\resizebox*{14cm}{!}{
 	\begin{tabular}{|r|c|c|c|c|}
@@ -134,7 +162,6 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 
 \subsection{Factibilidad T\'ecnica}
 Pretendemos aprovechar el apogeo de los m\'oviles y tratar de crear una buena oportunidad para introducir nuestro proyecto.\\
-
 Actualmente existen dos grandes sistemas operativos que domina la industria de los m\'oviles:. iOS y Android. Estamos conscientes de que desarrollar de forma nativa para ambas plataformas nos representar\'ia un poco m\'as de tiempo, que implicar\'ia restarle tiempo a la parte que en verdad es importante. Por lo cual usaremos IONIC, framework que nos permite desarrollar de manera sencilla aplicaciones m\'oviles usando las tendencias de Responsive Web Design. \\
 
 Lo interesante de este proyecto no radica en la aplicaci\'on m\'ovil, de hecho la aplicaci\'on s\'olo ser\'a una forma de consumir nuestro verdadero sistema.\\
@@ -148,6 +175,9 @@ Creemos tener los conocimientos necesarios para la construcci\'on de esto. Uno d
 La idea es construir un API al que se le pueda dar como input un texto, p\'arrafo, documento y que la salida sea otro documento pero con texto traducido. Ahora tenemos una base de datos con 15 mil palabras aproximadamente del Kaqchikel. La DB esta montada en un DBMS MySQL. El API fue construido en Symfony2.\\
 
 El core de traducci\'on ser\'a hecho en Java,  usando herramientas de parseo y an\'alisis sint\'actico como Flex.
+
+\subsubsection{Conclusión}
+La tecnología utilizada cubre con las necesidades para el proyecto, nos ayuda a que las tareas sean optimizadas, utilizando menos recursos y optimización de tiempo, lo cuál es un punto muy importante a considerar.
 
 \subsection{Factibilidad Econ\'omica}
 Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proyecto, hemos estimado los siguientes costos para el desarrollo de la aplicaci\'on, los gastos son a nivel de costo de servidor, por compra del dominio, licencias para subir aplicaci\'on y gastos en papel, en impresi\'on del manual de usuario.\\
@@ -187,19 +217,41 @@ Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proye
 \caption{Factibilidad Econ\'omica}
 \end{table}
 
+\subsubsection{Conclusión}
+El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a qué contamos con las herramientas para prueba (teléfono con Android y iPad) y pocas cosas son en las que hemos invertido.
 \newpage
 
 \section{Anexo}
+\subsection{Calendarización}
 \begin{figure}[h]
   \centering
     \includegraphics[width=1.0\textwidth]{Gantt}
   \caption{Diagrama de Gantt}
   \label{fig:gantt}
 \end{figure}
+
+\newpage
+\subsection{Diagrama Entidad-Relación}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{er}
+	\caption{Diagrama Entidad Relación}
+	\label{fig:er}
+\end{figure}
+La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, tenemos llaves foráneas a cada palabra asociada a su estructura gramatical (sujeto, verbo, adjetivo, etc), en el diagrama se ve que la información estará duplicada, estará en la tabla del vocabulario y en las estructuras gramaticales, sin embargo, ya que el usuario no realizará ningún insert a la base de datos, ésta no crecerá descontroladamente ya que solo nosotros controlaremos la información que allí se encuentre, este diseño nos ayudará a que nuestra aplicación sea más rápida, tendremos un costo en espacio pera ganaremos velocidad.
 \newpage
 
 \section{Glosario}
-\textbf{Kaqchikel: } lengua maya, parte de la familia lingüística mayense.
+\noindent \textbf{Kaqchikel: } lengua maya, parte de la familia lingüística mayense. \\\\
+\textbf{iOS: } sistema operativo móvil de Apple \\\\
+\textbf{Android: } sistema operativo móvil de Google \\\\
+\textbf{Framework: } conjunto estandarizado de conceptos, prácticas y criterios para enfrentar y resolver nuevos problemas de índole similar. \\\\
+\textbf{Responsive Web Design:  adaptar la apariencia de las páginas web al dispositivo que se esté utilizando para visualizarlas. }  \\\\
+\textbf{API:  } utilizada por otro software como una capa de abstracción \\\\
+\textbf{DB: } base de datos \\\\
+\textbf{DBMS: } programa que permite almacenar y posteriormente acceder a los datos de forma rápida y estructurada.\\\\
+\textbf{MySQL: }  sistema de gestión de bases de datos relacional \\\\
+\textbf{Symfony2: } framework diseñado para optimizar el desarrollo de aplicaciones web\\ \\
 \newpage
 
 \pagestyle{fancy}

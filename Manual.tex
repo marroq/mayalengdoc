@@ -1,4 +1,4 @@
-\documentclass[a4paper,openright,12pt]{article}
+\documentclass[landscape,12pt]{article}
 \date{}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
@@ -7,13 +7,9 @@
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
-\usepackage{pdflscape}
 
 \begin{document}
-\begin{landscape}
-\renewcommand{\tablename}{Tabla}
-\renewcommand{\listtablename}{\'Indice de tablas}
-\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.3pt}
 \newpage
 
@@ -29,7 +25,7 @@
 		\begin{Large}
 			Ingenier\'ia en Sistemas, Inform\'atica y \\Ciencias de la Computaci\'on\\
 		\end{Large}
-		\vspace*{0.5in}
+		\vspace*{0.4in}
 		\begin{LARGE}
 			\textbf{\LARGE MAYALENG} \\
 			\textbf{\Large Manual de Usuario} \\
@@ -47,5 +43,41 @@
 	\end{center}
 \end{titlepage}
 \newpage
-\end{landscape}
+
+\cleardoublepage
+\listoffigures
+
+\rfoot{\includegraphics[width=.08\textwidth]{ml}}
+\lfoot{MayaLeng}
+
+\newpage
+\pagestyle{fancy}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=18cm]{ml_1}	
+	\caption{Pantalla principal}
+	\label{fig:ml1}
+\end{figure}
+\newpage
+\begin{figure}[htb]
+	  \centering
+	\includegraphics[width=18cm]{ml_2}
+	\caption{Ingreso de texto}
+	\label{fig:ml2}
+\end{figure}
+\newpage
+\begin{figure}[htb]
+	  \centering
+	\includegraphics[width=18cm]{ml_3}
+	\caption{Búsqueda}
+	\label{fig:ml3}
+\end{figure}
+\newpage
+\begin{figure}[htb]
+	  \centering
+	\includegraphics[width=18cm]{ml_4}
+	\caption{Coincidencias}
+	\label{fig:ml4}
+\end{figure}
+\newpage
 \end{document}

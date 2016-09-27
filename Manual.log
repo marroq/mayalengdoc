@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  25 SEP 2016 20:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  27 SEP 2016 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -315,47 +315,28 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
-
-LaTeX Warning: Unused global option(s):
-    [openright].
-
-(./Manual.aux
+)) (./Manual.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `Manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen107
@@ -375,6 +356,10 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -415,37 +400,124 @@ e
 <ug.png, id=1, 155.8623pt x 75.1608pt>
 File: ug.png Graphic file (type png)
  <use ug.png>
-Package pdftex.def Info: ug.png used on input line 25.
+Package pdftex.def Info: ug.png used on input line 21.
 (pdftex.def)             Requested size: 227.62204pt x 109.76593pt.
 
 <ml.png, id=3, 128.48pt x 77.28876pt>
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 38.
+Package pdftex.def Info: ml.png used on input line 34.
 (pdftex.def)             Requested size: 113.81102pt x 68.46599pt.
  [1
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ug.png> <./ml.png>] (./M
-anual.aux
+anual.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@lof=\write3
+\openout3 = `Manual.lof'.
+
+ [1
+
+]
+<ml_1.png, id=17, 1165.35374pt x 711.65875pt>
+File: ml_1.png Graphic file (type png)
+ <use ml_1.png>
+Package pdftex.def Info: ml_1.png used on input line 57.
+(pdftex.def)             Requested size: 512.1496pt x 312.76161pt.
+
+Overfull \hbox (122.1496pt too wide) in paragraph at lines 57--58
+ [][] 
+ []
+
+<ml_2.png, id=18, 1184.425pt x 765.86125pt>
+File: ml_2.png Graphic file (type png)
+ <use ml_2.png>
+Package pdftex.def Info: ml_2.png used on input line 64.
+(pdftex.def)             Requested size: 512.1496pt x 331.172pt.
+
+Overfull \hbox (122.1496pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+<ml_3.png, id=19, 1159.33125pt x 764.8575pt>
+File: ml_3.png Graphic file (type png)
+ <use ml_3.png>
+Package pdftex.def Info: ml_3.png used on input line 71.
+(pdftex.def)             Requested size: 512.1496pt x 337.88048pt.
+
+Overfull \hbox (122.1496pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 4.71379pt on input line 74.
+
+<ml_4.png, id=20, 1236.62pt x 766.865pt>
+File: ml_4.png Graphic file (type png)
+ <use ml_4.png>
+Package pdftex.def Info: ml_4.png used on input line 78.
+(pdftex.def)             Requested size: 512.1496pt x 317.61118pt.
+
+Overfull \hbox (122.1496pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: ml.png Graphic file (type png)
+<use ml.png>
+Package pdftex.def Info: ml.png used on input line 83.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [2 <./ml_1.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 83.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [3 <./ml_2.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 83.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+
+[4 <./ml_3.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 83.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [5 <./ml_4.png>] (./Manual.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2845 strings out of 493304
- 37018 string characters out of 6139872
- 98785 words of memory out of 5000000
- 6267 multiletter control sequences out of 15000+600000
- 5448 words of font info for 20 fonts, out of 8000000 for 9000
+ 2876 strings out of 493304
+ 37122 string characters out of 6139872
+ 97995 words of memory out of 5000000
+ 6281 multiletter control sequences out of 15000+600000
+ 10147 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,5n,43p,238b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,43p,238b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Manual.pdf (1 page, 219693 bytes).
+Output written on Manual.pdf (6 pages, 674462 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

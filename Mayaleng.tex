@@ -1,4 +1,4 @@
-\documentclass[a4paper,openright,12pt]{article}
+\documentclass[a4paper,openright,11pt]{article}
 \date{}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
@@ -7,6 +7,7 @@
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
+\usepackage{float}
 
 \begin{document}
 \renewcommand{\tablename}{Tabla}
@@ -116,11 +117,51 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 	
 \end{enumerate}
 \subsubsection{Resultados de Encuesta}
-Hola\\
-Hola\\
-Hola\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\textwidth]{e1}
+	\caption{Pregunta 1}
+	\label{fig:e1}
+	Del total de personas que contestaron la encuesta podemos observar que poco más del 75\% de las personas está interesada en aprender una lengua mayal.
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{e2}
+	\caption{Pregunta 2}
+	\label{fig:e2}
+	En la gráfica podemos observar que casi la tercera parte de las personas les gustaría entablar una conversación en lengua maya, estas personas pueden estar enlazadas a la pregunta 1, que contestaron con un sí.
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{e3}
+	\caption{Pregunta 3}
+	\label{fig:e3}
+	En esta pregunta vemos que casi todos contestaron que sí, hay un pequeño porcentaje que piensa que la cultura de nuestro país no es algo importante.
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{e4}
+	\caption{Pregunta 4}
+	\label{fig:e4}
+	Todas las personas que entrevistamos cuentan con un smartphone, de todas esas personas la mayoría está dispuesta a instalar y utilizar nuestra aplicación en su teléfono.
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{e5}
+	\caption{Pregunta 5}
+	\label{fig:e5}
+	En esta pregunta creímos que el 100\% de las personas contestaría con un no, sin embargo un pequeño porcentaje de personas estaría dispuesta a pagar por la aplicación.
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{e6}
+	\caption{Pregunta 6}
+	\label{fig:e6}
+	Diez minutos es un pequeño tiempo para revisar una aplicación móvil, tiempo que la mayoría de los entrevistados estarían dispuestos a utilizar para revisar el traductor maya.
+\end{figure}
 
-\begin{table}[h]
+\subsubsection{Tablas Comparativas}
+\begin{table}[H]
 	\resizebox*{14cm}{!}{
 	\begin{tabular}{|r|c|c|c|c|}
 	\hline
@@ -138,9 +179,10 @@ Hola\\
 	\hline
 	\end{tabular}}
 \caption{Comparativa de Funcionalidades}
+	A nivel de funcionalidad nuestro competidor más grande es un profesor, quién posee las habilidades necesarias para desempeñar el trabajo de traductor, sin embargo hablamos de una persona contra una herramienta de tecnología que es más factible.
 \end{table}
 
-\begin{table}[h]
+\begin{table}[H]
 	\resizebox*{14cm}{!}{
 	\begin{tabular}{|r|c|c|c|c|}
 	\hline
@@ -158,7 +200,11 @@ Hola\\
 	\hline
 	\end{tabular}}
 \caption{Comparativa de Caracter\'isticas}
+Cuando evaluamos características la tecnología toma el control en aportar más cosas factibles que un profesor (nuestra mayor competencia), y podemos observar que MayaLeng cumple con casi todas las características de la evaluación realizada.
 \end{table}
+
+\subsubsection{Conclusión}
+Nuestra herramienta cumple con ser una herramienta factible, en base a las encuestas, conocemos la opinión de las personas y vemos que comportamiento tendrían si tuvieses la herramienta en sus manos, con las tablas comparativas pudimos ver a que nivel nos encontramos comparándonos con otras soluciones similares.
 
 \subsection{Factibilidad T\'ecnica}
 Pretendemos aprovechar el apogeo de los m\'oviles y tratar de crear una buena oportunidad para introducir nuestro proyecto.\\
@@ -238,7 +284,8 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
 	\caption{Diagrama Entidad Relación}
 	\label{fig:er}
 \end{figure}
-La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, tenemos llaves foráneas a cada palabra asociada a su estructura gramatical (sujeto, verbo, adjetivo, etc), en el diagrama se ve que la información estará duplicada, estará en la tabla del vocabulario y en las estructuras gramaticales, sin embargo, ya que el usuario no realizará ningún insert a la base de datos, ésta no crecerá descontroladamente ya que solo nosotros controlaremos la información que allí se encuentre, este diseño nos ayudará a que nuestra aplicación sea más rápida, tendremos un costo en espacio pera ganaremos velocidad.
+La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
+En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
 \newpage
 
 \section{Glosario}

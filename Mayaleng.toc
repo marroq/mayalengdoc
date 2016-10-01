@@ -18,4 +18,5 @@
 \contentsline {section}{\numberline {5}Anexo}{14}
 \contentsline {subsection}{\numberline {5.1}Calendarizaci\IeC {\'o}n}{14}
 \contentsline {subsection}{\numberline {5.2}Diagrama Entidad-Relaci\IeC {\'o}n}{15}
-\contentsline {section}{\numberline {6}Glosario}{16}
+\contentsline {subsection}{\numberline {5.3}Diagram de Arquitectura}{15}
+\contentsline {section}{\numberline {6}Glosario}{17}

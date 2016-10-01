@@ -286,6 +286,15 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
 \end{figure}
 La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
 En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
+
+\subsection{Diagram de Arquitectura}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{arquitectura}
+	\caption{Diagrama de Arquitectura}
+	\label{fig:arq}
+\end{figure}
+Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales que constan de la información, que cuenta con nuestro vocabulario, la base de datos, un servicio de migración utilizando la RAE, y el API, el cual divide las oraciones y construye las nuevas en el nuevo lenguaje.
 \newpage
 
 \section{Glosario}

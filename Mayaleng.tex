@@ -8,6 +8,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{float}
+\usepackage{color}
+\usepackage{listings}
 
 \begin{document}
 \renewcommand{\tablename}{Tabla}
@@ -100,62 +102,46 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 
 \section{Estudio de Factibilidad}
 \subsection{Factibilidad Funcional}
-\subsubsection{Encuesta}
-\begin{enumerate}
-	\item ¿Le gustaría aprender una lengua maya?\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	\item ¿Al visitar un departamento en Guatemala le gustaría poder comunicarse con personas que solamente conocen una lengua maya?	\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	\item ¿Cree que aprender sobre la cultura de nuestro país es importante?\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	\item ¿Usaría una aplicación móvil para aprender cosas básicas sobre lenguas mayas?\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	\item ¿Pagaría por la aplicación?\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	\item ¿Estaría dispuesto a invertir 10 minutos al día para conocer una lengua maya?\\
-	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
-	
-\end{enumerate}
 \subsubsection{Resultados de Encuesta}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth]{e1}
-	\caption{Pregunta 1}
+	\caption{Aprender una lengua maya}
 	\label{fig:e1}
 	Del total de personas que contestaron la encuesta podemos observar que poco más del 75\% de las personas está interesada en aprender una lengua mayal.
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth]{e2}
-	\caption{Pregunta 2}
+	\caption{Comunicación en lengua maya}
 	\label{fig:e2}
 	En la gráfica podemos observar que casi la tercera parte de las personas les gustaría entablar una conversación en lengua maya, estas personas pueden estar enlazadas a la pregunta 1, que contestaron con un sí.
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{e3}
-	\caption{Pregunta 3}
+	\caption{Cultura importante}
 	\label{fig:e3}
 	En esta pregunta vemos que casi todos contestaron que sí, hay un pequeño porcentaje que piensa que la cultura de nuestro país no es algo importante.
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{e4}
-	\caption{Pregunta 4}
+	\caption{Una aplicación móvil}
 	\label{fig:e4}
 	Todas las personas que entrevistamos cuentan con un smartphone, de todas esas personas la mayoría está dispuesta a instalar y utilizar nuestra aplicación en su teléfono.
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{e5}
-	\caption{Pregunta 5}
+	\caption{Pago por la apliación}
 	\label{fig:e5}
 	En esta pregunta creímos que el 100\% de las personas contestaría con un no, sin embargo un pequeño porcentaje de personas estaría dispuesta a pagar por la aplicación.
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{e6}
-	\caption{Pregunta 6}
+	\caption{Inversión de tiempo}
 	\label{fig:e6}
 	Diez minutos es un pequeño tiempo para revisar una aplicación móvil, tiempo que la mayoría de los entrevistados estarían dispuestos a utilizar para revisar el traductor maya.
 \end{figure}
@@ -267,6 +253,59 @@ Bas\'andonos en nuestra calendarizaci\'on de tareas para el desarrollo del proye
 El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a qué contamos con las herramientas para prueba (teléfono con Android y iPad) y pocas cosas son en las que hemos invertido.
 \newpage
 
+\section{Marco Teórico}
+
+
+\newpage
+
+\section{Tecnologías Involucradas}
+\subsection{MySQL}
+Es un sistema gestor de base de datos (DBMS) de licencia gratuita, es la más popular de las que contienen licencia gratuita, nos permite tener una base de datos relacional, con usuarios, permisos a nivel de base de datos, con este sistema tenemos alojado nuestro diccionario y la estructura de cada palabra.
+\subsection{PHP}
+Es un lenguaje de programación que se ejecuta del lado del servidor, es consideraado uno de los lenguajes más flexibles, potentes y de alto rendimiento, con este lenguaje realizamos la actualización del diccionario con sus respectivas traducciones y tipos de palabras, en él construimos y ejecutamos el algoritmo de traducción.
+\subsection{RAE}
+Es una institución cultural dedicada a la regularización lingüística, utilizamos el API para obtener el tipo de palabra(sustantivo, pronombre, verbo, etc) de cada una de las que cuenta nuestro diccionario.
+\subsection{LinguaKit}
+\subsection{Symfony}
+\subsection{ionic}
+\subsection{Android}
+Sistem operativo creado por Google Inc, en el cual se ejecuta la aplicación móvil Mayaleng
+\subsection{iOS}
+Sistem operativo creado por Apple Inc, en el cual se ejecuta la aplicación móvil Mayaleng
+\newpage
+
+\section{Solución}
+
+\subsection{¿En qué consiste?}
+Nuestro problema descrito anteriormente consiste de un términopro cultural respecto a las lenguas mayas que muchos desconocemos, la falta de comunicación en nuestro propio país y con nuestra misma gente, por falta de conocimiento.\\
+
+La solución planteada a esta problemática es la construcción de un algoritmo que nos ayude a establecer esta comunicación que no se posee, con el algoritmo trabajamos en un traductor con el cual podamos transformar frases en español a frases en una lengua maya, como lengua inicial hemos escogido el kaqchikel. Una vez construido el algoritmo de traducción necesitamos un dispositivo por el cual podamos darle uso a dicha herramienta, el dispositivo que elegimos para nuestra implementación es un teléfono inteligente, lo aplicamos para teléfonos que tengan instalado los sistemas operativos Android y iOS.\\
+
+El mercado de teléfonos inteligentes cada vez crece más, con la llegada del 4G el mercado móvil dió un nuevo paso y más personas tienen más fácil acceso al internet por medio de un dispositivo móvil, por lo que tener aplicaciones que requieran internet cada vez es menos costoso para el usuario, en el 2014 se estimó que había una cantidad de 21.7 millones de líneas telefónicas móvil.\\
+
+Creamos una aplicación móvil la cual consume el algoritmo de traducción, lo que se requiere para su funcionamiento es escribir una palabra, una frase, una oración o un párrafo en una caja de texto una vez iniciada la aplicación, este texto llega al algoritmo, contamos con un diccionario de español kaqchikel, con la o las palabras obtenidas formamos la estructura de una oración en kaqchikel y se responde a la aplicación.
+\newpage
+
+\subsection{Algoritmos implementados}
+\subsubsection{Traducción de español a kaqchikel}
+Lo que realiza este algoritmo, el cual es una implementación propia, se describe a continuación:
+
+\begin{lstlisting}
+Recibe texto
+Si TextoMuyLargo Entonces
+	Descomponer en oraciones mas cortas
+	
+Obtener palabras de texto
+Mientras Palabras > 0
+	Obtener traduccion de cada palabra en kaqchikel
+	
+Analizar tipo de palabra
+Analizar estructura de oracion en kaqchikel
+Armar nuevo texto
+Devolver nuevo texto
+\end{lstlisting}
+\newpage
+
 \section{Anexo}
 \subsection{Calendarización}
 \begin{figure}[h]
@@ -275,6 +314,22 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
   \caption{Diagrama de Gantt}
   \label{fig:gantt}
 \end{figure}
+
+\subsection{Encuesta}
+\begin{enumerate}
+	\item ¿Le gustaría aprender una lengua maya?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Al visitar un departamento en Guatemala le gustaría poder comunicarse con personas que solamente conocen una lengua maya?	\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Cree que aprender sobre la cultura de nuestro país es importante?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Usaría una aplicación móvil para aprender cosas básicas sobre lenguas mayas?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Pagaría por la aplicación?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+	\item ¿Estaría dispuesto a invertir 10 minutos al día para conocer una lengua maya?\\
+	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
+\end{enumerate}
 
 \newpage
 \subsection{Diagrama Entidad-Relación}
@@ -287,7 +342,7 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
 La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
 En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
 
-\subsection{Diagram de Arquitectura}
+\subsection{Diagrama de Arquitectura}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{arquitectura}
@@ -296,7 +351,16 @@ En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir co
 \end{figure}
 Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales que constan de la información, que cuenta con nuestro vocabulario, la base de datos, un servicio de migración utilizando la RAE, y el API, el cual divide las oraciones y construye las nuevas en el nuevo lenguaje.
 
-\subsection{Diagram de Secuencia}
+\subsection{Diagrama de Arquitectura con Tecnologías}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{arquitecturalogos}
+	\caption{Diagrama de Arquitectura Logos} 
+	\label{fig:arqL}
+\end{figure}
+Tecnologías utilizadas
+
+\subsection{Diagrama de Secuencia}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{secuencia}

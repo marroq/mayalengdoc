@@ -254,36 +254,46 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
 \newpage
 
 \section{Marco Teórico}
+\subsection{Lenguas Mayas}
+En Guatemala contamos actualmente con más de 20 lenguas mayas,  los Acuerdos de Paz firmados en diciembre de 1996 hacen un compromiso de estado, el reconocimiento de los diferentes idiomas del país, lo cual hace que el país sea reconocido como uno multilingüe, y se hace constar en la Constitución que los idiomas mayas deberán respetarse y difundirse. Se han hecho esfuerzos por hacer sin embargo los pocos habitantes que quedan hacen difícil la tarea, muchos jóvenes de las nuevas generaciones no llegan a aprender el idioma indígena de sus padres. Actualmente los idiomas de mayor habla son el kekchí, el quiché, el kaqchikel, el mam y el tzutujil, los cuales tienen algunos vocablos y reglas gramaticales en común. \\
+ 
+Las lenguas mayenses derivan del protomaya, una protolengua (reconstrucción probable de la lengua origen de un grupo de lenguas, sea una rama o una familia, sobre la base de las coincidencias y rasgos comunes a dicha familia de lenguas que no constituyan innovaciones o préstamos.) que pudo haberse hablado hace unos 5000 años a juzgar por el grado de diversificación interna en una región cercana a donde actualmente se hablan lenguas mayenses.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{mapa}
+	\caption{Mapa de lenguas mayas}
+	Las lenguas mayas están distribuidas por todo el país.
+	\label{fig:map}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{tablalenguas}
+	\caption{Tabla de lenguas mayas}
+	Cantidad de hablantes de cada lengua.
+	\label{fig:tabla}
+\end{figure}
+
+Habíamos mencionado en la sección 3, \textbf{\textit{El Problema}}, que nuestra problemática era desde un punto cultural, un problema de comunicación interna por falta de conocimiento,porque no conocemos las lenguas mayas, no las podemos hablar, y tampoco encontramos información fácil sobre ellas, no es cómo hacer una traducción en google translate y saber como se escribe alguna palabra que necesitamos usar, eso nos lleva al siguiente análisis.
+
+\subsection{Solución}
+\textbf{\textit{¿En qué consiste?}}\\
+La solución planteada a esta problemática es la construcción de un algoritmo que nos ayude a establecer esta comunicación que no se posee, trabajamos en un traductor con el cual podamos transformar frases en español a frases en una lengua maya, como lengua inicial hemos escogido el kaqchikel. Una vez construido el algoritmo de traducción necesitamos un dispositivo por el cual podamos darle uso a dicha herramienta, el dispositivo que elegimos para nuestra implementación es un teléfono inteligente, lo aplicamos para teléfonos que tengan instalado los sistemas operativos \textbf{Android} y \textbf{iOS}; Android es un sistema operativo móvil creado por Google Inc, y iOS es un sistema operativo móvil creado por Apple Inc.\\
+
+El mercado de teléfonos inteligentes cada vez crece más, con la llegada del 4G el mercado móvil dió un nuevo paso y más personas tienen más fácil acceso al internet por medio de un dispositivo móvil, por lo que tener aplicaciones que requieran internet cada vez es menos costoso para el usuario, en el 2014 se estimó que había una cantidad de 21.7 millones de líneas telefónicas móvil en el país.\\
+
+\textbf{\textit{¿Qué hicimos?}}\\
+Creamos una aplicación móvil con el nombre de \textbf{\textit{MayaLeng}} utilizando \textbf{ionic}, este es un framework que nos permite hacer un solo desarrollo y con ionic compilamos nuestro programa una sola vez y generaramos una aplicación para iOS y Android; MayaLeng consume el algoritmo de traducción.\\
+\textbf{\textit{¿Cómo funciona?}}\\
+Lo que se requiere para su funcionamiento es escribir una palabra, una frase, una oración o un párrafo en una caja de texto una vez MayaLeng haya iniciado, este texto llega al algoritmo, contamos con un diccionario de español-kaqchikel, el diccionario lo tenemos almacenado en una base de datos \textbf{MySQL} que es sistema gestor de base de datos (DBMS) de licencia gratuita; mandamos nuestra oración a otra herramienta llamada \textbf{LinguaKit} que nos devuelve cada palabra de nuestra oración con su respectivo tipo de palabra, las cuales podrían ser artículo, pronombre, verbos; una vez tenemos esos resultados...
 
 
-\newpage
-
-\section{Tecnologías Involucradas}
-\subsection{MySQL}
-Es un sistema gestor de base de datos (DBMS) de licencia gratuita, es la más popular de las que contienen licencia gratuita, nos permite tener una base de datos relacional, con usuarios, permisos a nivel de base de datos, con este sistema tenemos alojado nuestro diccionario y la estructura de cada palabra.
 \subsection{PHP}
 Es un lenguaje de programación que se ejecuta del lado del servidor, es consideraado uno de los lenguajes más flexibles, potentes y de alto rendimiento, con este lenguaje realizamos la actualización del diccionario con sus respectivas traducciones y tipos de palabras, en él construimos y ejecutamos el algoritmo de traducción.
 \subsection{RAE}
 Es una institución cultural dedicada a la regularización lingüística, utilizamos el API para obtener el tipo de palabra(sustantivo, pronombre, verbo, etc) de cada una de las que cuenta nuestro diccionario.
-\subsection{LinguaKit}
 \subsection{Symfony}
-\subsection{ionic}
-\subsection{Android}
-Sistem operativo creado por Google Inc, en el cual se ejecuta la aplicación móvil Mayaleng
-\subsection{iOS}
-Sistem operativo creado por Apple Inc, en el cual se ejecuta la aplicación móvil Mayaleng
-\newpage
-
-\section{Solución}
-
-\subsection{¿En qué consiste?}
-Nuestro problema descrito anteriormente consiste de un términopro cultural respecto a las lenguas mayas que muchos desconocemos, la falta de comunicación en nuestro propio país y con nuestra misma gente, por falta de conocimiento.\\
-
-La solución planteada a esta problemática es la construcción de un algoritmo que nos ayude a establecer esta comunicación que no se posee, con el algoritmo trabajamos en un traductor con el cual podamos transformar frases en español a frases en una lengua maya, como lengua inicial hemos escogido el kaqchikel. Una vez construido el algoritmo de traducción necesitamos un dispositivo por el cual podamos darle uso a dicha herramienta, el dispositivo que elegimos para nuestra implementación es un teléfono inteligente, lo aplicamos para teléfonos que tengan instalado los sistemas operativos Android y iOS.\\
-
-El mercado de teléfonos inteligentes cada vez crece más, con la llegada del 4G el mercado móvil dió un nuevo paso y más personas tienen más fácil acceso al internet por medio de un dispositivo móvil, por lo que tener aplicaciones que requieran internet cada vez es menos costoso para el usuario, en el 2014 se estimó que había una cantidad de 21.7 millones de líneas telefónicas móvil.\\
-
-Creamos una aplicación móvil la cual consume el algoritmo de traducción, lo que se requiere para su funcionamiento es escribir una palabra, una frase, una oración o un párrafo en una caja de texto una vez iniciada la aplicación, este texto llega al algoritmo, contamos con un diccionario de español kaqchikel, con la o las palabras obtenidas formamos la estructura de una oración en kaqchikel y se responde a la aplicación.
 \newpage
 
 \subsection{Algoritmos implementados}
@@ -368,6 +378,14 @@ Tecnologías utilizadas
 	\label{fig:sec}
 \end{figure}
 Aquí se presenta el flujo que tiene una palabra al ser ingresada por el usuario hasta regresar de nuevo pero ya traducida.
+
+\subsection{Diagrama de Secuencia Oraciones}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{secuenciaoracion}
+	\caption{Diagrama de Secuencia de Oraciones}
+	\label{fig:seco}
+\end{figure}
 \newpage
 
 \section{Glosario}

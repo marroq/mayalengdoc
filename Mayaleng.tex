@@ -75,17 +75,23 @@
 \rfoot{\includegraphics[width=.08\textwidth]{ml}}
 \lfoot{MayaLeng}
 \section{Introducci\'on}
-Mayaleng m\'as que una aplicaci\'on es un algoritmo con la capacidad de recibir un input, en nuestro caso, una palabra, una frase, un p\'arrafo, una cantidad de texto muy grande, en espa\~nol y retornar un output, (el texto de entrada), en una lengua maya. \\
+Mayaleng más que una aplicación es un algoritmo con la capacidad de recibir un input, en nuestro caso, una palabra, una frase, un párrafo, una cantidad de texto muy grande, en español y retornar un output, (el texto de entrada), en una lengua maya. \\
 
-Una herramienta de traducci\'on y para conocimiento de la cultura de Guatemala.
+Una herramienta de traducción y para conocimiento de la cultura de Guatemala.\\
+
+La cultura en Guatemala es muy grande, uno de los propósitos de este proyecto es poder aportar a expandir el conocimiento en las lenguas mayas, una rama que forma gran parte de la cultura, por medio de un algoritmo de traducción, utilizando diferentes tecnologías, hacemos dicho aporte, creando un traductor de español e inglés a una lengua maya, el Kaqchikel.\\
+
+Una aplicación móvil y web nos ayudará a expandir el conocimiento de esta lengua maya, la tecnología cada vez es más accesible, los teléfonos inteligentes y las computadores cada vez son más comunes en los hogares, lo que nos ayuda a deducir que el alcance puede ser mayor. Pero no solamente estamos enfocando esta herramienta al uso particular de personas, también se enfoca a que sea una herramienta de trabajo para quienes enseñan a otros el español, en este caso es un profesor quien utiliza la herramienta y es cierto que esta persona ya conoce la lengua maya pero con la herramienta puede generar su propia documentación para los alumnos que este tenga.\\
+
+Utilizamos muchas herramientas para la construccións de este proyecto, MySQL, LiguaKit, PHP, Symfony, Ionic, API's; herramientas de las cuales iremos hablando en el desarrollo del proyecto.
 \newpage
 
 \section{Objetivos}
 \subsection{Objetivo General}
-Crear una herramienta de traducci\'on de lenguas mayas.
+Crear una herramienta de traducci\'on de la lengua maya Kaqchikel.
 \subsection{Objetivos Espec\'ificos}
 \begin{itemize}
-    \item Crear una aplicaci\'on m\'ovil (Android y iOS) para traducir lenguas mayas.
+    \item Crear una aplicaci\'on m\'ovil (Android y iOS) para traducción del Kaqchikel.
     \item Dar a conocer la cultura de nuestro pa\'is Guatemala.
     \item Brindar la capacidad a profesores y personas en general de traducir documentos para facilitar su trabajo en los lugares d\'onde imparten clases dentro de nuestro pa\'is y los cuales no dominan el espa\~nol.
 \end{itemize}
@@ -95,7 +101,7 @@ Crear una herramienta de traducci\'on de lenguas mayas.
 \subsection{¿Cuál es el problema?}
 El problema analizado para querer desarrollar esta herramienta fue desde un punto de vista cultural, ya que en Guatemala existen muchas lenguas mayas, de las cuales pocas personas en el pa\'is dominan como m\'inimo una. Estas forman parte de nuestro patrimonio cultural. Alrededor del mundo Guatemala es conocida por los puntos tur\'isticos con los que contamos, regularmente estos se encuentran en los departamentos donde al menos existe una lengua Maya.  Como guatemaltecos deber\'iamos de poder comunicarnos con la gente de nuestro pa\'is, ya que en algunos departamentos no se habla mucho en espa\~nol sino que hablan en una lengua maya, sin embargo ese no es el caso. No hemos encontrado tantas herramientas claras que nos faciliten dicha tarea, queremos ser de los primeros en brindar dicha herramienta.\\
 
-En este momento sugerimos kaqchikel, la forma en que solucionamos el problema de la comunicación es teniendo una aplicación m\'ovil la cu\'al har\'a una traducción en nuestro idioma natal a kaqchikel, sencillamente quien utilice la aplicación deberá ingresar el texto y en una casilla aparte aparecer\'a la traducci\'on del texto, algo similar a google translate.\\
+En este momento sugerimos Kaqchikel, la forma en que solucionamos el problema de la comunicación es teniendo una aplicación m\'ovil la cu\'al har\'a una traducción en nuestro idioma natal a Kaqchikel, sencillamente quien utilice la aplicación deberá ingresar el texto y en una casilla aparte aparecer\'a la traducci\'on del texto, algo similar a google translate.\\
 
 Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\'as utilizadas, ya que tendremos una secci\'on donde diremos como se dicen esas frases, cosas b\'asicas como saludar, despedirse, hasta algo m\'as formal, un ejemplo ser\'ia preguntar d\'onde se encuentra el bano, preguntar el nombre de una persona y frases similares.\\
 \newpage
@@ -255,9 +261,9 @@ El costo monetario del desarrollo de nuestra herramienta no es tan alto debido a
 
 \section{Marco Teórico}
 \subsection{Lenguas Mayas}
-En Guatemala contamos actualmente con más de 20 lenguas mayas,  los Acuerdos de Paz firmados en diciembre de 1996 hacen un compromiso de estado, el reconocimiento de los diferentes idiomas del país, lo cual hace que el país sea reconocido como uno multilingüe, y se hace constar en la Constitución que los idiomas mayas deberán respetarse y difundirse. Se han hecho esfuerzos por hacer sin embargo los pocos habitantes que quedan hacen difícil la tarea, muchos jóvenes de las nuevas generaciones no llegan a aprender el idioma indígena de sus padres. Actualmente los idiomas de mayor habla son el kekchí, el quiché, el kaqchikel, el mam y el tzutujil, los cuales tienen algunos vocablos y reglas gramaticales en común. \\
+En Guatemala contamos actualmente con más de 20 lenguas mayas,  los Acuerdos de Paz firmados en diciembre de 1996 hacen un compromiso de estado, el reconocimiento de los diferentes idiomas del país, lo cual hace que el país sea reconocido como uno multilingüe, y se hace constar en la Constitución que los idiomas mayas deberán respetarse y difundirse. Se han hecho esfuerzos, sin embargo los pocos habitantes que quedan hacen difícil la tarea. Muchos jóvenes de las nuevas generaciones no llegan a aprender el idioma indígena de sus padres. Actualmente los idiomas de mayor habla son el Kekchí, el Quiché, el Kaqchikel, el Mam y el Tzutujil, los cuales tienen algunos vocablos y reglas gramaticales en común. \\
  
-Las lenguas mayenses derivan del protomaya, una protolengua (reconstrucción probable de la lengua origen de un grupo de lenguas, sea una rama o una familia, sobre la base de las coincidencias y rasgos comunes a dicha familia de lenguas que no constituyan innovaciones o préstamos.) que pudo haberse hablado hace unos 5000 años a juzgar por el grado de diversificación interna en una región cercana a donde actualmente se hablan lenguas mayenses.
+Las lenguas mayenses derivan del protomaya, una protolengua (reconstrucción probable de la lengua origen de un grupo de lenguas), que pudo haberse hablado hace unos 5000 años a juzgar por el grado de diversificación interna en una región cercana a donde actualmente se hablan lenguas mayenses.
 
 \begin{figure}[H]
 	\centering
@@ -269,31 +275,141 @@ Las lenguas mayenses derivan del protomaya, una protolengua (reconstrucción pro
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{tablalenguas}
+	\includegraphics[width=0.6\textwidth]{tablalenguas}
 	\caption{Tabla de lenguas mayas}
 	Cantidad de hablantes de cada lengua.
 	\label{fig:tabla}
 \end{figure}
 
-Habíamos mencionado en la sección 3, \textbf{\textit{El Problema}}, que nuestra problemática era desde un punto cultural, un problema de comunicación interna por falta de conocimiento,porque no conocemos las lenguas mayas, no las podemos hablar, y tampoco encontramos información fácil sobre ellas, no es cómo hacer una traducción en google translate y saber como se escribe alguna palabra que necesitamos usar, eso nos lleva al siguiente análisis.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{porhablantes}
+	\caption{Porcentaje de hablantes de lenguas mayas}
+	\label{fig:porc}
+\end{figure}
 
-\subsection{Solución}
+Como parte de las herramientas involucradas para el desarrollo de este proyecto tenemos:\\
+\begin{table}[H]
+	\begin{center}
+	\resizebox*{5cm}{!}{
+		\begin{tabular}{|l|l|}
+			\hline
+			1. & MySQL\\
+			\hline
+			2. & PHP\\
+			\hline
+			3. & RAE\\
+			\hline
+			4. & RAE\\
+			\hline
+			5. & LinguaKit\\
+			\hline
+			6. & Symfony\\
+			\hline
+			7. & Ionic\\
+			\hline
+			8. & Formularios de Google\\
+			\hline
+			9. & LaTex\\
+			\hline
+			10. & Wordpress\\
+			\hline
+		\end{tabular}}
+	\end{center}
+	\caption{Tecnologías Involucradas}
+\end{table}
+
+
+Habíamos mencionado en la sección 3, \textbf{\textit{El Problema}}, que nuestra problemática era desde un punto cultural, un problema de comunicación interna por falta de conocimiento, porque no conocemos las lenguas mayas, no las podemos hablar, y tampoco encontramos información fácil sobre ellas, no es cómo hacer una traducción en Google translate y saber como se escribe alguna palabra que necesitamos usar, eso nos lleva al siguiente análisis. \\
+
+\newpage
+
+\section{MayaLeng}
 \textbf{\textit{¿En qué consiste?}}\\
-La solución planteada a esta problemática es la construcción de un algoritmo que nos ayude a establecer esta comunicación que no se posee, trabajamos en un traductor con el cual podamos transformar frases en español a frases en una lengua maya, como lengua inicial hemos escogido el kaqchikel. Una vez construido el algoritmo de traducción necesitamos un dispositivo por el cual podamos darle uso a dicha herramienta, el dispositivo que elegimos para nuestra implementación es un teléfono inteligente, lo aplicamos para teléfonos que tengan instalado los sistemas operativos \textbf{Android} y \textbf{iOS}; Android es un sistema operativo móvil creado por Google Inc, y iOS es un sistema operativo móvil creado por Apple Inc.\\
+La solución planteada a esta problemática es la construcción de un algoritmo que nos ayude a establecer esta comunicación que no se posee, trabajamos en un traductor con el cual podamos transformar frases en español a frases en una lengua maya, como lengua inicial hemos escogido el Kaqchikel. Una vez construido el algoritmo de traducción necesitamos un dispositivo por el cual podamos darle uso a dicha herramienta, el dispositivo que elegimos para nuestra implementación es un teléfono inteligente, lo aplicamos para teléfonos que tengan instalado los sistemas operativos \textbf{Android} y \textbf{iOS}; Android es un sistema operativo móvil creado por Google Inc, y iOS es un sistema operativo móvil creado por Apple Inc.\\
 
 El mercado de teléfonos inteligentes cada vez crece más, con la llegada del 4G el mercado móvil dió un nuevo paso y más personas tienen más fácil acceso al internet por medio de un dispositivo móvil, por lo que tener aplicaciones que requieran internet cada vez es menos costoso para el usuario, en el 2014 se estimó que había una cantidad de 21.7 millones de líneas telefónicas móvil en el país.\\
 
 \textbf{\textit{¿Qué hicimos?}}\\
-Creamos una aplicación móvil con el nombre de \textbf{\textit{MayaLeng}} utilizando \textbf{ionic}, este es un framework que nos permite hacer un solo desarrollo y con ionic compilamos nuestro programa una sola vez y generaramos una aplicación para iOS y Android; MayaLeng consume el algoritmo de traducción.\\
+Creamos una aplicación móvil con el nombre de \textbf{\textit{MayaLeng}} utilizando \textbf{ionic}, este es un framework que nos permite hacer un solo desarrollo y compilar nuestro programa una sola vez y generaramos una aplicación para iOS y Android; MayaLeng consume el algoritmo de traducción.\\\\
+
 \textbf{\textit{¿Cómo funciona?}}\\
-Lo que se requiere para su funcionamiento es escribir una palabra, una frase, una oración o un párrafo en una caja de texto una vez MayaLeng haya iniciado, este texto llega al algoritmo, contamos con un diccionario de español-kaqchikel, el diccionario lo tenemos almacenado en una base de datos \textbf{MySQL} que es sistema gestor de base de datos (DBMS) de licencia gratuita; mandamos nuestra oración a otra herramienta llamada \textbf{LinguaKit} que nos devuelve cada palabra de nuestra oración con su respectivo tipo de palabra, las cuales podrían ser artículo, pronombre, verbos; una vez tenemos esos resultados...
+Lo que se requiere para su funcionamiento es escribir una palabra, una frase, una oración o un párrafo en una caja de texto, una vez MayaLeng haya iniciado, este texto llega al algoritmo, contamos con un diccionario de español-kaqchikel, el diccionario lo llenamos con su respectivo tipo de palabra, el cual obtuvimos utilizando la \textbf{RAE}, una institución cultural dedicada a la regularización lingüística.\\ 
+Utilizamos su API con un scritp desarrollado en \textbf{PHP} que es un lenguaje de programación que se ejecuta del lado del servidor, es considerado uno de los lenguajes más flexibles, potentes y de alto rendimiento,  con este script obtenemos el tipo de palabra (sustantivo, pronombre, verbo, etc) de cada una de las contenidas en el diccionario.\\ 
+El diccionario está almacenado en una base de datos \textbf{MySQL} que es sistema gestor de base de datos (DBMS) de licencia gratuita; mandamos nuestra oración a otra herramienta llamada \textbf{LinguaKit} que nos devuelve cada palabra de nuestra oración con su respectivo tipo de palabra. Las palabras podrían ser artículo, pronombre, verbos; una vez tenemos esos resultados los enlazamos con el tipo de palabra con el que ya contamos en la base de datos y ya teniendo la información, con \textbf{Symfony}, un framework diseñado para optimizar el desarrollo de las aplicaciones web basado en el patrón MVC (Modelo Vista Controlador), construímos la oración.\\\\
 
+\textit{\textbf{¿Cómo construímos la oración?}}\\
+Para explicar la construcción mostramos la siguiente imagen:\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{oracion}
+	\caption{Oración español-kaqchikel}
+	\label{fig:kaq}
+\end{figure}
+La estructura de una oración simple en español es:
+\begin{center}
+	\textit{Sujeto - Predicado}\\
+\end{center}
 
-\subsection{PHP}
-Es un lenguaje de programación que se ejecuta del lado del servidor, es consideraado uno de los lenguajes más flexibles, potentes y de alto rendimiento, con este lenguaje realizamos la actualización del diccionario con sus respectivas traducciones y tipos de palabras, en él construimos y ejecutamos el algoritmo de traducción.
-\subsection{RAE}
-Es una institución cultural dedicada a la regularización lingüística, utilizamos el API para obtener el tipo de palabra(sustantivo, pronombre, verbo, etc) de cada una de las que cuenta nuestro diccionario.
-\subsection{Symfony}
+La estructura de una oración simple en Kaqchikel es:
+\begin{center}
+	\textit{Predicado - Sujetio}\\
+\end{center}
+
+Basándonos en la respuesta de \textit{Linguakit}, que nos devuelve que palabras forman parte del sujeto, y cuales del predicado, podemos colocar cada palabra en su orden correspondiente en base a la estructura de Kaqchikel que se obtuvo, este procedimiento lo realizamos para oraciones simples.
+
+\subsection{Diagrama Entidad-Relación}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{er}
+	\caption{Diagrama Entidad Relación}
+	\label{fig:er}
+\end{figure}
+La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a Kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
+En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
+
+\subsection{Diagrama de Arquitectura}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{arquitectura}
+	\caption{Diagrama de Arquitectura}
+	\label{fig:arq}
+\end{figure}
+Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales que constan de la información, que cuenta con nuestro vocabulario, la base de datos, un servicio de migración utilizando la RAE, y el API, el cual divide las oraciones y construye las nuevas en el nuevo lenguaje.
+
+\subsection{Diagrama de Arquitectura con Tecnologías}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{arquitecturalogos}
+	\caption{Diagrama de Arquitectura Logos} 
+	Tecnologías utilizadas
+	\label{fig:arqL}
+\end{figure}
+
+\subsection{Diagrama de Secuencia - Palabra}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{secuencia}
+	\caption{Diagrama de Secuencia}
+	\label{fig:sec}
+\end{figure}
+Aquí se presenta el flujo que tiene una palabra al ser ingresada por el usuario hasta regresar de nuevo pero ya traducida.
+
+\subsection{Diagrama de Secuencia - Oraciones}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{secuenciaoracion}
+	\caption{Diagrama de Secuencia de Oraciones}
+	\label{fig:seco}
+\end{figure}
+
+\subsection{Diagrama de Casos de Uso}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{casouso}
+	\caption{Diagrama de Caso de Uso}
+	\label{fig:caso}
+\end{figure}
 \newpage
 
 \subsection{Algoritmos implementados}
@@ -314,6 +430,28 @@ Analizar estructura de oracion en kaqchikel
 Armar nuevo texto
 Devolver nuevo texto
 \end{lstlisting}
+\newpage
+
+\section{Conclusiones}
+\begin{itemize}
+	\item Aprendimos un poco más de la cultura de Guatemala, sobre las lenguas mayas.
+	\item Pusimos en práctica varios temas de los aprendidos en la Universidad.
+	\item Aprendimos nuevas tecnologías.
+\end{itemize}
+\newpage
+
+\section{Recomendaciones}
+\begin{itemize}
+	\item Aprender más sobre la cultura de Guatemala.
+\end{itemize}
+\newpage
+
+\section{Referencias}
+\begin{itemize}
+	\item Filiberto Patal Majzul. (2007). Ruzoltzij Ri Kaqchikel. Guatemala|: Cholsamaj.
+	\item (2006). Lenguas mayenses. 2006, de Wikipedia Sitio web: http://bit.ly/2dTGuVy
+	\item (2002). Lenguas de Guatemala. 2002, de Wikipedia Sitio web: http://bit.ly/2fuwPpd
+\end{itemize}
 \newpage
 
 \section{Anexo}
@@ -340,52 +478,6 @@ Devolver nuevo texto
 	\item ¿Estaría dispuesto a invertir 10 minutos al día para conocer una lengua maya?\\
 	SI \rule{10mm}{0.1mm}  \hspace{5cm} NO \rule{10mm}{0.1mm}
 \end{enumerate}
-
-\newpage
-\subsection{Diagrama Entidad-Relación}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{er}
-	\caption{Diagrama Entidad Relación}
-	\label{fig:er}
-\end{figure}
-La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
-En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
-
-\subsection{Diagrama de Arquitectura}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{arquitectura}
-	\caption{Diagrama de Arquitectura}
-	\label{fig:arq}
-\end{figure}
-Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales que constan de la información, que cuenta con nuestro vocabulario, la base de datos, un servicio de migración utilizando la RAE, y el API, el cual divide las oraciones y construye las nuevas en el nuevo lenguaje.
-
-\subsection{Diagrama de Arquitectura con Tecnologías}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{arquitecturalogos}
-	\caption{Diagrama de Arquitectura Logos} 
-	\label{fig:arqL}
-\end{figure}
-Tecnologías utilizadas
-
-\subsection{Diagrama de Secuencia}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{secuencia}
-	\caption{Diagrama de Secuencia}
-	\label{fig:sec}
-\end{figure}
-Aquí se presenta el flujo que tiene una palabra al ser ingresada por el usuario hasta regresar de nuevo pero ya traducida.
-
-\subsection{Diagrama de Secuencia Oraciones}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{secuenciaoracion}
-	\caption{Diagrama de Secuencia de Oraciones}
-	\label{fig:seco}
-\end{figure}
 \newpage
 
 \section{Glosario}

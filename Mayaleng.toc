@@ -15,36 +15,43 @@
 \contentsline {subsection}{\numberline {4.3}Factibilidad Econ\'omica}{13}
 \contentsline {subsubsection}{\numberline {4.3.1}Conclusi\IeC {\'o}n}{13}
 \contentsline {section}{\numberline {5}Kaqchikel}{14}
-\contentsline {section}{\numberline {6}Marco Te\IeC {\'o}rico}{15}
-\contentsline {subsection}{\numberline {6.1}Lenguas Mayas}{15}
-\contentsline {subsection}{\numberline {6.2}Tecnolog\IeC {\'\i }as Involucradas}{18}
-\contentsline {subsubsection}{\numberline {6.2.1}MySQL}{18}
-\contentsline {subsubsection}{\numberline {6.2.2}PHP}{18}
-\contentsline {subsubsection}{\numberline {6.2.3}RAE}{19}
-\contentsline {subsubsection}{\numberline {6.2.4}LinguaKit}{19}
-\contentsline {subsubsection}{\numberline {6.2.5}Symfony}{19}
-\contentsline {subsubsection}{\numberline {6.2.6}IONIC}{19}
-\contentsline {subsubsection}{\numberline {6.2.7}Formularios de Google}{20}
-\contentsline {subsubsection}{\numberline {6.2.8}\textbf {\textlatin {\LaTeX }}}{20}
-\contentsline {subsubsection}{\numberline {6.2.9}WordPress}{20}
-\contentsline {section}{\numberline {7}MayaLeng}{21}
-\contentsline {subsection}{\numberline {7.1}MayaLeng}{21}
-\contentsline {subsubsection}{\numberline {7.1.1}\IeC {\textquestiondown }En qu\IeC {\'e} consiste?}{21}
-\contentsline {subsubsection}{\numberline {7.1.2}\IeC {\textquestiondown }Qu\IeC {\'e} hicimos?}{21}
-\contentsline {subsubsection}{\numberline {7.1.3}\IeC {\textquestiondown }C\IeC {\'o}mo funciona?}{21}
-\contentsline {subsubsection}{\numberline {7.1.4}\IeC {\textquestiondown }C\IeC {\'o}mo constru\IeC {\'\i }mos la oraci\IeC {\'o}n?}{22}
-\contentsline {subsection}{\numberline {7.2}Diagrama Entidad-Relaci\IeC {\'o}n}{23}
-\contentsline {subsection}{\numberline {7.3}Diagrama de Arquitectura}{23}
-\contentsline {subsection}{\numberline {7.4}Diagrama de Arquitectura con Tecnolog\IeC {\'\i }as}{24}
-\contentsline {subsection}{\numberline {7.5}Diagrama de Secuencia - Palabra}{24}
-\contentsline {subsection}{\numberline {7.6}Diagrama de Secuencia - Oraciones}{25}
-\contentsline {subsection}{\numberline {7.7}Diagrama de Casos de Uso}{26}
-\contentsline {subsection}{\numberline {7.8}Algoritmos implementados}{27}
-\contentsline {subsubsection}{\numberline {7.8.1}Traducci\IeC {\'o}n de espa\IeC {\~n}ol a kaqchikel}{27}
-\contentsline {section}{\numberline {8}Conclusiones}{28}
-\contentsline {section}{\numberline {9}Recomendaciones}{29}
-\contentsline {section}{\numberline {10}Referencias}{30}
-\contentsline {section}{\numberline {11}Anexo}{31}
-\contentsline {subsection}{\numberline {11.1}Calendarizaci\IeC {\'o}n}{31}
-\contentsline {subsection}{\numberline {11.2}Encuesta}{31}
-\contentsline {section}{\numberline {12}Glosario}{32}
+\contentsline {subsection}{\numberline {5.1}Lengua Maya Kaqchikel}{14}
+\contentsline {subsection}{\numberline {5.2}Gram\IeC {\'a}tica}{15}
+\contentsline {subsubsection}{\numberline {5.2.1}Alfabeto}{15}
+\contentsline {subsubsection}{\numberline {5.2.2}Sustantivos}{15}
+\contentsline {subsubsection}{\numberline {5.2.3}Plural}{15}
+\contentsline {subsubsection}{\numberline {5.2.4}Oraciones}{16}
+\contentsline {section}{\numberline {6}Marco Te\IeC {\'o}rico}{17}
+\contentsline {subsection}{\numberline {6.1}Lenguas Mayas}{17}
+\contentsline {subsection}{\numberline {6.2}Tecnolog\IeC {\'\i }as Involucradas}{20}
+\contentsline {subsubsection}{\numberline {6.2.1}MySQL}{20}
+\contentsline {subsubsection}{\numberline {6.2.2}PHP}{20}
+\contentsline {subsubsection}{\numberline {6.2.3}RAE}{21}
+\contentsline {subsubsection}{\numberline {6.2.4}LinguaKit}{21}
+\contentsline {subsubsection}{\numberline {6.2.5}Symfony}{21}
+\contentsline {subsubsection}{\numberline {6.2.6}IONIC}{21}
+\contentsline {subsubsection}{\numberline {6.2.7}Formularios de Google}{22}
+\contentsline {subsubsection}{\numberline {6.2.8}\textbf {\textlatin {\LaTeX }}}{22}
+\contentsline {subsubsection}{\numberline {6.2.9}WordPress}{22}
+\contentsline {section}{\numberline {7}MayaLeng}{23}
+\contentsline {subsection}{\numberline {7.1}MayaLeng}{23}
+\contentsline {subsubsection}{\numberline {7.1.1}\IeC {\textquestiondown }En qu\IeC {\'e} consiste?}{23}
+\contentsline {subsubsection}{\numberline {7.1.2}\IeC {\textquestiondown }Qu\IeC {\'e} hicimos?}{23}
+\contentsline {subsubsection}{\numberline {7.1.3}\IeC {\textquestiondown }C\IeC {\'o}mo funciona?}{23}
+\contentsline {subsubsection}{\numberline {7.1.4}\IeC {\textquestiondown }C\IeC {\'o}mo constru\IeC {\'\i }mos la oraci\IeC {\'o}n?}{24}
+\contentsline {subsection}{\numberline {7.2}Diagrama Entidad-Relaci\IeC {\'o}n}{25}
+\contentsline {subsection}{\numberline {7.3}Diagrama de Arquitectura}{25}
+\contentsline {subsection}{\numberline {7.4}Diagrama de Arquitectura con Tecnolog\IeC {\'\i }as}{26}
+\contentsline {subsection}{\numberline {7.5}Diagrama de Secuencia - Palabra}{26}
+\contentsline {subsection}{\numberline {7.6}Diagrama de Secuencia - Oraciones}{27}
+\contentsline {subsection}{\numberline {7.7}Diagrama de Secuencia - Oraciones en otros Idiomas}{28}
+\contentsline {subsection}{\numberline {7.8}Diagrama de Casos de Uso}{29}
+\contentsline {subsection}{\numberline {7.9}Algoritmos implementados}{30}
+\contentsline {subsubsection}{\numberline {7.9.1}Traducci\IeC {\'o}n de espa\IeC {\~n}ol a kaqchikel}{30}
+\contentsline {section}{\numberline {8}Conclusiones}{31}
+\contentsline {section}{\numberline {9}Recomendaciones}{32}
+\contentsline {section}{\numberline {10}Referencias}{33}
+\contentsline {section}{\numberline {11}Anexo}{34}
+\contentsline {subsection}{\numberline {11.1}Calendarizaci\IeC {\'o}n}{34}
+\contentsline {subsection}{\numberline {11.2}Encuesta}{34}
+\contentsline {section}{\numberline {12}Glosario}{35}

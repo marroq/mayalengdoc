@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Introducci\'on}{5}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{5}
 \contentsline {section}{\numberline {2}Objetivos}{6}
 \contentsline {subsection}{\numberline {2.1}Objetivo General}{6}
 \contentsline {subsection}{\numberline {2.2}Objetivos Espec\'ificos}{6}
@@ -38,7 +38,7 @@
 \contentsline {subsubsection}{\numberline {7.1.1}\IeC {\textquestiondown }En qu\IeC {\'e} consiste?}{23}
 \contentsline {subsubsection}{\numberline {7.1.2}\IeC {\textquestiondown }Qu\IeC {\'e} hicimos?}{23}
 \contentsline {subsubsection}{\numberline {7.1.3}\IeC {\textquestiondown }C\IeC {\'o}mo funciona?}{23}
-\contentsline {subsubsection}{\numberline {7.1.4}\IeC {\textquestiondown }C\IeC {\'o}mo constru\IeC {\'\i }mos la oraci\IeC {\'o}n?}{24}
+\contentsline {subsubsection}{\numberline {7.1.4}\IeC {\textquestiondown }C\IeC {\'o}mo construimos la oraci\IeC {\'o}n?}{24}
 \contentsline {subsection}{\numberline {7.2}Diagrama Entidad-Relaci\IeC {\'o}n}{25}
 \contentsline {subsection}{\numberline {7.3}Diagrama de Arquitectura}{25}
 \contentsline {subsection}{\numberline {7.4}Diagrama de Arquitectura con Tecnolog\IeC {\'\i }as}{26}

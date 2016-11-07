@@ -206,9 +206,7 @@ Durante el transcurso de nuestra carrera ya hicimos un compilador, con todas las
 
 Creemos tener los conocimientos necesarios para la construcci\'on de esto. Uno de los inconvenientes m\'as grandes era que ninguno de los dos sabemos hablar un idioma Maya, pero nos apoyamos en la documentaci\'on que distintas personas a lo largo de la historia han construido.\\ 
 
-La idea es construir un API al que se le pueda dar como input un texto, p\'arrafo, documento y que la salida sea otro documento pero con texto traducido. Ahora tenemos una base de datos con 15 mil palabras aproximadamente del Kaqchikel. La DB esta montada en un DBMS MySQL. El API fue construido en Symfony2.\\
-
-El core de traducci\'on ser\'a hecho en Java,  usando herramientas de parseo y an\'alisis sint\'actico como Flex.
+La idea es construir un API al que se le pueda dar como input un texto, p\'arrafo, documento y que la salida sea otro documento pero con texto traducido. Ahora tenemos una base de datos con 15 mil palabras aproximadamente del Kaqchikel. La DB esta montada en un DBMS MySQL. El API fue construido en Symfony2. El core de traducci\'on fue realizado con LinguaKit.
 
 \subsubsection{Conclusión}
 La tecnología utilizada cubre con las necesidades para el proyecto, nos ayuda a que las tareas sean optimizadas, utilizando menos recursos y optimización de tiempo, lo cuál es un punto muy importante a considerar.
@@ -415,6 +413,8 @@ Como parte de las herramientas involucradas para el desarrollo de este proyecto 
 			\hline
 			9. & Wordpress\\
 			\hline
+			10. & Google API\\
+			\hline
 		\end{tabular}}
 	\end{center}
 	\caption{Tecnologías Involucradas}
@@ -446,7 +446,11 @@ Utilizamos los formularios de Google que es una herramienta para realizar encues
 Es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica. Por sus características y posibilidades, es usado de forma especialmente intensa en la generación de artículos y libros científicos que incluyen, entre otros elementos, expresiones matemáticas, está formado por un gran conjunto de macros de TeX, escrito por Leslie Lamport en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica. Es muy utilizado para la composición de artículos académicos, tesis y libros técnicos, dado que la calidad tipográfica de los documentos realizados es comparable a la de una editorial científica de primera línea. \LaTeX \hspace{0.1cm} es software libre bajo licencia LPPL.
 
 \subsubsection{WordPress}
-Es un software que se puede utilizar para crear fantásticas webs, blogs o aplicaciones. Es, al tiempo, gratis y de un precio incalculable. Dicho de forma sencilla, WordPress es el sistema que se utilizar como una herramienta de publicación muy buena y fácil de utilizar. WordPress es una herramienta que la crean y mantienen cientos de voluntarios de la comunidad, y hay miles de plugins y temas disponibles para transformar un sitio web en cualquier cosa que se pueda imaginar. Más de 60 millones de personas han elegido WordPress. Es muy famoso por que su instalación es fácil de realizar y en un corto tiempo, para ser exactos 5 minutos. Puede ser instalado en varios idiomas, puede ser actualizado después de ser instalado y contiene un conjunto de temas disponibles.\\
+Es un software que se puede utilizar para crear fantásticas webs, blogs o aplicaciones. Es, al tiempo, gratis y de un precio incalculable. Dicho de forma sencilla, WordPress es el sistema que se utilizar como una herramienta de publicación muy buena y fácil de utilizar. WordPress es una herramienta que la crean y mantienen cientos de voluntarios de la comunidad, y hay miles de plugins y temas disponibles para transformar un sitio web en cualquier cosa que se pueda imaginar. Más de 60 millones de personas han elegido WordPress. Es muy famoso por que su instalación es fácil de realizar y en un corto tiempo, para ser exactos 5 minutos. Puede ser instalado en varios idiomas, puede ser actualizado después de ser instalado y contiene un conjunto de temas disponibles.
+
+\subsubsection{Google API}
+Es un set de servicios que Google ofrece. De este utilizamos el API de Google Translate. Lo utilizamos para realizar HTTP Request que puedan traducirnos de cualquier idioma soportado al español. Esto se debe a que nuestro módulo de traducción es Español - Kaqchikel.\\ 
+Esto nos da una oportunidad de que alguien de habla anglosajona pueda de igual forma usar la aplicación sin necesidad de traducir su oración a Español.\\
 
 Habíamos mencionado en la sección 3, \textbf{\textit{El Problema}}, que nuestra problemática era desde un punto cultural, un problema de comunicación interna por falta de conocimiento, porque no conocemos las lenguas mayas, no las podemos hablar, y tampoco encontramos información fácil sobre ellas, no es cómo hacer una traducción en Google translate y saber cómo se escribe alguna palabra que necesitamos usar, eso nos lleva al siguiente análisis. \\
 \newpage

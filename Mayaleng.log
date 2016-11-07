@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  6 NOV 2016 20:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  6 NOV 2016 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,125 +663,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 218.
+Package pdftex.def Info: ml.png used on input line 216.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [12]
-Overfull \hbox (66.80609pt too wide) in paragraph at lines 220--270
+Overfull \hbox (66.80609pt too wide) in paragraph at lines 218--268
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 275.
+Package pdftex.def Info: ml.png used on input line 273.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [13]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
-
-LaTeX Info: Redefining \. on input line 292.
-LaTeX Info: Redefining \% on input line 292.
+LaTeX Info: Redefining \. on input line 290.
+LaTeX Info: Redefining \% on input line 290.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 292.
+Package pdftex.def Info: ml.png used on input line 290.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [14]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Overfull \hbox (38.35544pt too wide) in paragraph at lines 303--321
+Overfull \hbox (38.35544pt too wide) in paragraph at lines 301--319
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 342.
-LaTeX Info: Redefining \% on input line 342.
-LaTeX Info: Redefining \. on input line 342.
-LaTeX Info: Redefining \% on input line 342.
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 342.
+Package pdftex.def Info: ml.png used on input line 340.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [15]
-LaTeX Info: Redefining \. on input line 360.
-LaTeX Info: Redefining \% on input line 360.
-LaTeX Info: Redefining \. on input line 360.
-LaTeX Info: Redefining \% on input line 360.
+LaTeX Info: Redefining \. on input line 358.
+LaTeX Info: Redefining \% on input line 358.
+LaTeX Info: Redefining \. on input line 358.
+LaTeX Info: Redefining \% on input line 358.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 360.
+Package pdftex.def Info: ml.png used on input line 358.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 <mapa.png, id=74, 115.632pt x 149.55072pt>
 File: mapa.png Graphic file (type png)
  <use mapa.png>
-Package pdftex.def Info: mapa.png used on input line 370.
+Package pdftex.def Info: mapa.png used on input line 368.
 (pdftex.def)             Requested size: 198.0011pt x 256.09494pt.
 
 <tablalenguas.PNG, id=75, 276.28218pt x 592.46344pt>
 File: tablalenguas.PNG Graphic file (type png)
  <use tablalenguas.PNG>
-Package pdftex.def Info: tablalenguas.PNG used on input line 378.
+Package pdftex.def Info: tablalenguas.PNG used on input line 376.
 (pdftex.def)             Requested size: 216.0022pt x 463.1954pt.
-LaTeX Info: Redefining \. on input line 382.
-LaTeX Info: Redefining \% on input line 382.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 File: ml.png Graphic file (type png)
 
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 382.
+Package pdftex.def Info: ml.png used on input line 380.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [17 <./mapa.png>]
 <porhablantes.png, id=79, 244.915pt x 768.8725pt>
 File: porhablantes.png Graphic file (type png)
  <use porhablantes.png>
-Package pdftex.def Info: porhablantes.png used on input line 386.
+Package pdftex.def Info: porhablantes.png used on input line 384.
 (pdftex.def)             Requested size: 108.0011pt x 339.04407pt.
-LaTeX Info: Redefining \. on input line 390.
-LaTeX Info: Redefining \% on input line 390.
-LaTeX Info: Redefining \. on input line 390.
-LaTeX Info: Redefining \% on input line 390.
+LaTeX Info: Redefining \. on input line 388.
+LaTeX Info: Redefining \% on input line 388.
+LaTeX Info: Redefining \. on input line 388.
+LaTeX Info: Redefining \% on input line 388.
 File: ml.png Graphic file (type png)
 
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 390.
+Package pdftex.def Info: ml.png used on input line 388.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [18 <./tablalenguas.PNG>]
-LaTeX Info: Redefining \. on input line 392.
-LaTeX Info: Redefining \% on input line 392.
-LaTeX Info: Redefining \. on input line 392.
-LaTeX Info: Redefining \% on input line 392.
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 392.
+Package pdftex.def Info: ml.png used on input line 390.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [19 <./porhablantes.png>]
 LaTeX Info: Redefining \. on input line 432.
@@ -803,481 +798,490 @@ File: ml.png Graphic file (type png)
 Package pdftex.def Info: ml.png used on input line 444.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [21]
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
-LaTeX Info: Redefining \. on input line 452.
-LaTeX Info: Redefining \% on input line 452.
-LaTeX Info: Redefining \. on input line 452.
-LaTeX Info: Redefining \% on input line 452.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 452.
+Package pdftex.def Info: ml.png used on input line 456.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [22]
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 456.
+(pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-LaTeX Info: Redefining \. on input line 469.
-LaTeX Info: Redefining \% on input line 469.
+LaTeX Info: Redefining \. on input line 473.
+LaTeX Info: Redefining \% on input line 473.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 469.
+Package pdftex.def Info: ml.png used on input line 473.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [23] <oracion.png, id=102, 738.76pt x 63.23625pt>
+ [24] <oracion.png, id=106, 738.76pt x 63.23625pt>
 File: oracion.png Graphic file (type png)
 
 <use oracion.png>
-Package pdftex.def Info: oracion.png used on input line 474.
+Package pdftex.def Info: oracion.png used on input line 478.
 (pdftex.def)             Requested size: 323.9978pt x 27.73332pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--477
+Underfull \hbox (badness 10000) in paragraph at lines 475--481
 
  []
 
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
+LaTeX Info: Redefining \. on input line 494.
+LaTeX Info: Redefining \% on input line 494.
+LaTeX Info: Redefining \. on input line 494.
+LaTeX Info: Redefining \% on input line 494.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 490.
+Package pdftex.def Info: ml.png used on input line 494.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [24 <./oracion.png>] <er.png, id=108, 755.82375pt x 262.9825pt>
+ [25 <./oracion.png>] <er.png, id=111, 755.82375pt x 262.9825pt>
 File: er.png Graphic file (type png)
 
 <use er.png>
-Package pdftex.def Info: er.png used on input line 494.
+Package pdftex.def Info: er.png used on input line 498.
 (pdftex.def)             Requested size: 323.9978pt x 112.73114pt.
- <arquitectura.png, id=109, 787.94376pt x 455.7025pt>
+ <arquitectura.png, id=112, 787.94376pt x 455.7025pt>
 File: arquitectura.png Graphic file (type png)
 
 <use arquitectura.png>
-Package pdftex.def Info: arquitectura.png used on input line 504.
+Package pdftex.def Info: arquitectura.png used on input line 508.
 (pdftex.def)             Requested size: 323.9978pt x 187.38159pt.
-LaTeX Info: Redefining \. on input line 509.
-LaTeX Info: Redefining \% on input line 509.
-LaTeX Info: Redefining \. on input line 509.
-LaTeX Info: Redefining \% on input line 509.
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 509.
+Package pdftex.def Info: ml.png used on input line 513.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [25 <./er.png> <./arquitectura.png>]
-<arquitecturalogos.png, id=114, 794.97pt x 455.7025pt>
+ [26 <./er.png> <./arquitectura.png>]
+<arquitecturalogos.png, id=117, 794.97pt x 455.7025pt>
 File: arquitecturalogos.png Graphic file (type png)
 
 <use arquitecturalogos.png>
-Package pdftex.def Info: arquitecturalogos.png used on input line 515.
+Package pdftex.def Info: arquitecturalogos.png used on input line 519.
 (pdftex.def)             Requested size: 323.9978pt x 185.72667pt.
- <secuencia.png, id=115, 1387.1825pt x 608.2725pt>
+ <secuencia.png, id=118, 1387.1825pt x 608.2725pt>
 File: secuencia.png Graphic file (type png)
 
 <use secuencia.png>
-Package pdftex.def Info: secuencia.png used on input line 524.
+Package pdftex.def Info: secuencia.png used on input line 528.
 (pdftex.def)             Requested size: 251.9989pt x 110.496pt.
- <secuenciaoracion.jpeg, id=116, 694.595pt x 484.81125pt>
+ <secuenciaoracion.jpeg, id=119, 694.595pt x 484.81125pt>
 File: secuenciaoracion.jpeg Graphic file (type jpg)
 
 <use secuenciaoracion.jpeg>
-Package pdftex.def Info: secuenciaoracion.jpeg used on input line 533.
+Package pdftex.def Info: secuenciaoracion.jpeg used on input line 537.
 (pdftex.def)             Requested size: 396.0022pt x 276.41185pt.
 
-Overfull \hbox (36.0022pt too wide) in paragraph at lines 533--534
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 537--538
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 537.
-LaTeX Info: Redefining \% on input line 537.
-LaTeX Info: Redefining \. on input line 537.
-LaTeX Info: Redefining \% on input line 537.
+LaTeX Info: Redefining \. on input line 541.
+LaTeX Info: Redefining \% on input line 541.
+LaTeX Info: Redefining \. on input line 541.
+LaTeX Info: Redefining \% on input line 541.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 537.
+Package pdftex.def Info: ml.png used on input line 541.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [26 <./arquitecturalogos.png> <./secuencia.png>]
-<secuenciaidiomas.jpeg, id=122, 696.6025pt x 565.11125pt>
+ [27 <./arquitecturalogos.png> <./secuencia.png>]
+<secuenciaidiomas.jpeg, id=125, 696.6025pt x 565.11125pt>
 File: secuenciaidiomas.jpeg Graphic file (type jpg)
 
 <use secuenciaidiomas.jpeg>
-Package pdftex.def Info: secuenciaidiomas.jpeg used on input line 542.
+Package pdftex.def Info: secuenciaidiomas.jpeg used on input line 546.
 (pdftex.def)             Requested size: 431.9989pt x 350.45158pt.
 
-Overfull \hbox (71.9989pt too wide) in paragraph at lines 542--543
+Overfull \hbox (71.9989pt too wide) in paragraph at lines 546--547
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
+LaTeX Info: Redefining \. on input line 550.
+LaTeX Info: Redefining \% on input line 550.
+LaTeX Info: Redefining \. on input line 550.
+LaTeX Info: Redefining \% on input line 550.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 546.
+Package pdftex.def Info: ml.png used on input line 550.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [27 <./secuenciaoracion.jpeg>]
-LaTeX Info: Redefining \. on input line 548.
-LaTeX Info: Redefining \% on input line 548.
-LaTeX Info: Redefining \. on input line 548.
-LaTeX Info: Redefining \% on input line 548.
+ [28 <./secuenciaoracion.jpeg>]
+LaTeX Info: Redefining \. on input line 552.
+LaTeX Info: Redefining \% on input line 552.
+LaTeX Info: Redefining \. on input line 552.
+LaTeX Info: Redefining \% on input line 552.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 548.
+Package pdftex.def Info: ml.png used on input line 552.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [28 <./secuenciaidiomas.jpeg>] <casouso.png, id=129, 433.62pt x 425.59pt>
+ [29 <./secuenciaidiomas.jpeg>] <casouso.png, id=132, 433.62pt x 425.59pt>
 File: casouso.png Graphic file (type png)
  <use casouso.png>
-Package pdftex.def Info: casouso.png used on input line 552.
+Package pdftex.def Info: casouso.png used on input line 556.
 (pdftex.def)             Requested size: 288.0011pt x 282.68259pt.
-LaTeX Info: Redefining \. on input line 557.
-LaTeX Info: Redefining \% on input line 557.
-LaTeX Info: Redefining \. on input line 557.
-LaTeX Info: Redefining \% on input line 557.
+LaTeX Info: Redefining \. on input line 561.
+LaTeX Info: Redefining \% on input line 561.
+LaTeX Info: Redefining \. on input line 561.
+LaTeX Info: Redefining \% on input line 561.
 File: ml.png Graphic file (type png)
 
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 557.
+Package pdftex.def Info: ml.png used on input line 561.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [29 <./casouso.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 570.
+ [30 <./casouso.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 574.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 570.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 574.
 
-Overfull \hbox (7.92383pt too wide) in paragraph at lines 572--573
+Overfull \hbox (7.92383pt too wide) in paragraph at lines 576--577
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (21.06396pt too wide) in paragraph at lines 573--574
+Overfull \hbox (21.06396pt too wide) in paragraph at lines 577--578
 [][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (27.63403pt too wide) in paragraph at lines 575--576
+Overfull \hbox (27.63403pt too wide) in paragraph at lines 579--580
 [][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (1.35376pt too wide) in paragraph at lines 577--578
+Overfull \hbox (1.35376pt too wide) in paragraph at lines 581--582
 [][][][][][][][][][][][] 
  []
 
-LaTeX Info: Redefining \. on input line 585.
-LaTeX Info: Redefining \% on input line 585.
-LaTeX Info: Redefining \. on input line 585.
-LaTeX Info: Redefining \% on input line 585.
+LaTeX Info: Redefining \. on input line 589.
+LaTeX Info: Redefining \% on input line 589.
+LaTeX Info: Redefining \. on input line 589.
+LaTeX Info: Redefining \% on input line 589.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 585.
-(pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [30]
-LaTeX Info: Redefining \. on input line 598.
-LaTeX Info: Redefining \% on input line 598.
-File: ml.png Graphic file (type png)
- <use ml.png>
-Package pdftex.def Info: ml.png used on input line 598.
+Package pdftex.def Info: ml.png used on input line 589.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [31]
-LaTeX Info: Redefining \. on input line 605.
-LaTeX Info: Redefining \% on input line 605.
+LaTeX Info: Redefining \. on input line 602.
+LaTeX Info: Redefining \% on input line 602.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 605.
+Package pdftex.def Info: ml.png used on input line 602.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
  [32]
-Overfull \hbox (46.15428pt too wide) in paragraph at lines 610--611
+LaTeX Info: Redefining \. on input line 609.
+LaTeX Info: Redefining \% on input line 609.
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 609.
+(pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
+ [33]
+Overfull \hbox (46.15428pt too wide) in paragraph at lines 614--615
 []\OT1/cmr/m/n/10.95 (2006). Len-guas ma-yen-ses. 2006, de Wi-ki-pe-dia Si-tio 
 web: https://goo.gl/tpmgRJ 
  []
 
 
-Overfull \hbox (70.59415pt too wide) in paragraph at lines 611--612
+Overfull \hbox (70.59415pt too wide) in paragraph at lines 615--616
 []\OT1/cmr/m/n/10.95 (2002). Len-guas de Gua-te-ma-la. 2002, de Wi-ki-pe-dia Si
 -tio web: https://goo.gl/TRjvVQ 
  []
 
 
-Overfull \hbox (48.03886pt too wide) in paragraph at lines 613--614
+Overfull \hbox (48.03886pt too wide) in paragraph at lines 617--618
 []\OT1/cmr/m/n/10.95 (1999). PHP 5 In-tro-duc-tion. 2016, de W3Schools Si-tio w
 eb: https://goo.gl/lM91q 
  []
 
 
-Overfull \hbox (74.28972pt too wide) in paragraph at lines 614--615
+Overfull \hbox (74.28972pt too wide) in paragraph at lines 618--619
 []\OT1/cmr/m/n/10.95 (2002). Real Aca-de-mia Es-pa~nola. 2016, de Wi-ki-pe-dia 
 Si-tio web: https://goo.gl/wU29ss 
  []
 
 
-Overfull \hbox (1.97398pt too wide) in paragraph at lines 617--618
+Overfull \hbox (1.97398pt too wide) in paragraph at lines 621--622
 \OT1/cmr/m/n/10.95 viem-bre 1, 2016, de Pho-ne-GapS-pain Si-tio web: https://go
 o.gl/qOV5EP 
  []
 
 
-Overfull \hbox (48.49635pt too wide) in paragraph at lines 618--619
+Overfull \hbox (48.49635pt too wide) in paragraph at lines 622--623
 []\OT1/cmr/m/n/10.95 Google. Crea atrac-ti-vos for-mu-la-rios., de Goo-gle Si-t
 io web: https://goo.gl/XP1jpa 
  []
 
 
-Overfull \hbox (59.59846pt too wide) in paragraph at lines 619--620
+Overfull \hbox (59.59846pt too wide) in paragraph at lines 623--624
 []\OT1/cmr/m/n/10.95 (2002). La-TeX. 2016, de Wi-ki-pe-dia Si-tio web: https://
 es.wikipedia.org/wiki/LaTeX 
  []
 
 
-Overfull \hbox (20.0871pt too wide) in paragraph at lines 620--621
+Overfull \hbox (20.0871pt too wide) in paragraph at lines 624--625
 []\OT1/cmr/m/n/10.95 WordPress Es-pa~nol. 2016, de Word-Press Si-tio web: https
 ://goo.gl/DSb6kU 
  []
 
-LaTeX Info: Redefining \. on input line 623.
-LaTeX Info: Redefining \% on input line 623.
+LaTeX Info: Redefining \. on input line 627.
+LaTeX Info: Redefining \% on input line 627.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 623.
+Package pdftex.def Info: ml.png used on input line 627.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [33] <Gantt.png, id=148, 1207.51125pt x 531.9875pt>
+ [34] <Gantt.png, id=151, 1207.51125pt x 531.9875pt>
 File: Gantt.png Graphic file (type png)
 
 <use Gantt.png>
-Package pdftex.def Info: Gantt.png used on input line 629.
+Package pdftex.def Info: Gantt.png used on input line 633.
 (pdftex.def)             Requested size: 360.0pt x 158.59903pt.
-LaTeX Info: Redefining \. on input line 651.
-LaTeX Info: Redefining \% on input line 651.
+LaTeX Info: Redefining \. on input line 655.
+LaTeX Info: Redefining \% on input line 655.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 651.
+Package pdftex.def Info: ml.png used on input line 655.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [34 <./Gantt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+ [35 <./Gantt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--691
+Underfull \hbox (badness 10000) in paragraph at lines 658--695
 
  []
 
-LaTeX Info: Redefining \. on input line 691.
-LaTeX Info: Redefining \% on input line 691.
+LaTeX Info: Redefining \. on input line 695.
+LaTeX Info: Redefining \% on input line 695.
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 691.
+Package pdftex.def Info: ml.png used on input line 695.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [35]
-LaTeX Info: Redefining \. on input line 691.
-LaTeX Info: Redefining \% on input line 691.
+ [36]
+LaTeX Info: Redefining \. on input line 695.
+LaTeX Info: Redefining \% on input line 695.
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 691.
+Package pdftex.def Info: ml.png used on input line 695.
 (pdftex.def)             Requested size: 28.80066pt x 17.32553pt.
- [36] (./Mayaleng.aux (./glosarioacronimos.aux)
+ [37] (./Mayaleng.aux (./glosarioacronimos.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
  4713 strings out of 493304
  61489 string characters out of 6139872
- 131629 words of memory out of 5000000
+ 132629 words of memory out of 5000000
  8059 multiletter control sequences out of 15000+600000
  11779 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1293,10 +1297,10 @@ e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msam10.pfb>
-Output written on Mayaleng.pdf (37 pages, 1076166 bytes).
+Output written on Mayaleng.pdf (38 pages, 1077061 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

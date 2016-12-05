@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  21 OCT 2016 18:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.7)  27 NOV 2016 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,56 +430,96 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ]
-<ml_1.png, id=17, 1165.35374pt x 711.65875pt>
+<ml_1.png, id=17, 1153.30875pt x 769.87625pt>
 File: ml_1.png Graphic file (type png)
  <use ml_1.png>
 Package pdftex.def Info: ml_1.png used on input line 57.
-(pdftex.def)             Requested size: 512.1496pt x 312.76161pt.
+(pdftex.def)             Requested size: 483.69684pt x 322.88768pt.
 
-Overfull \hbox (122.1496pt too wide) in paragraph at lines 57--58
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-<ml_2.png, id=18, 1184.425pt x 765.86125pt>
+<ml_9.png, id=18, 1132.23pt x 766.865pt>
+File: ml_9.png Graphic file (type png)
+ <use ml_9.png>
+Package pdftex.def Info: ml_9.png used on input line 65.
+(pdftex.def)             Requested size: 483.69684pt x 327.60417pt.
+
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+<ml_2.png, id=19, 1050.92625pt x 695.59875pt>
 File: ml_2.png Graphic file (type png)
  <use ml_2.png>
-Package pdftex.def Info: ml_2.png used on input line 64.
-(pdftex.def)             Requested size: 512.1496pt x 331.172pt.
+Package pdftex.def Info: ml_2.png used on input line 73.
+(pdftex.def)             Requested size: 483.69684pt x 320.15974pt.
 
-Overfull \hbox (122.1496pt too wide) in paragraph at lines 64--65
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-<ml_3.png, id=19, 1159.33125pt x 764.8575pt>
+<ml_3.png, id=20, 1109.14375pt x 770.88pt>
 File: ml_3.png Graphic file (type png)
  <use ml_3.png>
-Package pdftex.def Info: ml_3.png used on input line 71.
-(pdftex.def)             Requested size: 512.1496pt x 337.88048pt.
+Package pdftex.def Info: ml_3.png used on input line 81.
+(pdftex.def)             Requested size: 483.69684pt x 336.177pt.
 
-Overfull \hbox (122.1496pt too wide) in paragraph at lines 71--72
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 4.71379pt on input line 74.
+LaTeX Warning: Float too large for page by 3.01031pt on input line 84.
 
-<ml_4.png, id=20, 1236.62pt x 766.865pt>
+<ml_4.png, id=21, 1042.89626pt x 757.83125pt>
 File: ml_4.png Graphic file (type png)
  <use ml_4.png>
-Package pdftex.def Info: ml_4.png used on input line 78.
-(pdftex.def)             Requested size: 512.1496pt x 317.61118pt.
+Package pdftex.def Info: ml_4.png used on input line 89.
+(pdftex.def)             Requested size: 455.24408pt x 330.81029pt.
 
-Overfull \hbox (122.1496pt too wide) in paragraph at lines 78--79
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-<ml_5.png, id=21, 1364.09625pt x 764.8575pt>
+<ml_5.png, id=22, 1203.49625pt x 697.60625pt>
 File: ml_5.png Graphic file (type png)
  <use ml_5.png>
-Package pdftex.def Info: ml_5.png used on input line 85.
-(pdftex.def)             Requested size: 512.1496pt x 287.17097pt.
+Package pdftex.def Info: ml_5.png used on input line 97.
+(pdftex.def)             Requested size: 512.1496pt x 296.8779pt.
 
-Overfull \hbox (122.1496pt too wide) in paragraph at lines 85--86
+Overfull \hbox (122.1496pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+<ml_6.png, id=23, 1128.215pt x 762.85pt>
+File: ml_6.png Graphic file (type png)
+ <use ml_6.png>
+Package pdftex.def Info: ml_6.png used on input line 105.
+(pdftex.def)             Requested size: 455.24408pt x 307.81183pt.
+
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 105--106
+ [][] 
+ []
+
+<ml_7.png, id=24, 1147.28625pt x 719.68875pt>
+File: ml_7.png Graphic file (type png)
+ <use ml_7.png>
+Package pdftex.def Info: ml_7.png used on input line 114.
+(pdftex.def)             Requested size: 483.69684pt x 303.42027pt.
+
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 114--115
+ [][] 
+ []
+
+<ml_8.png, id=25, 1118.1775pt x 764.8575pt>
+File: ml_8.png Graphic file (type png)
+ <use ml_8.png>
+Package pdftex.def Info: ml_8.png used on input line 122.
+(pdftex.def)             Requested size: 483.69684pt x 330.85468pt.
+
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
@@ -491,49 +531,70 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ml.png Graphic file (type png)
 <use ml.png>
-Package pdftex.def Info: ml.png used on input line 90.
+Package pdftex.def Info: ml.png used on input line 127.
 (pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
  [2 <./ml_1.png>]
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 90.
+Package pdftex.def Info: ml.png used on input line 127.
 (pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
- [3 <./ml_2.png>]
+ [3 <./ml_9.png>]
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 90.
+Package pdftex.def Info: ml.png used on input line 127.
 (pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
 
-[4 <./ml_3.png>]
+[4 <./ml_2.png>]
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 90.
+Package pdftex.def Info: ml.png used on input line 127.
 (pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
- [5 <./ml_4.png>]
+ [5 <./ml_3.png>]
 File: ml.png Graphic file (type png)
  <use ml.png>
-Package pdftex.def Info: ml.png used on input line 90.
+Package pdftex.def Info: ml.png used on input line 127.
 (pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
- [6 <./ml_5.png>]
-(./Manual.aux
+ [6 <./ml_4.png>]
+File: ml.png Graphic file (type png)
+
+<use ml.png>
+Package pdftex.def Info: ml.png used on input line 127.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [7 <./ml_5.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 127.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [8 <./ml_6.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 127.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+
+[9 <./ml_7.png>]
+File: ml.png Graphic file (type png)
+ <use ml.png>
+Package pdftex.def Info: ml.png used on input line 127.
+(pdftex.def)             Requested size: 31.20071pt x 18.76903pt.
+ [10 <./ml_8.png>] (./Manual.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2882 strings out of 493304
- 37190 string characters out of 6139872
- 98003 words of memory out of 5000000
- 6286 multiletter control sequences out of 15000+600000
+ 2906 strings out of 493304
+ 37462 string characters out of 6139872
+ 99036 words of memory out of 5000000
+ 6306 multiletter control sequences out of 15000+600000
  10147 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,13n,43p,238b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Manual.pdf (7 pages, 815568 bytes).
+Output written on Manual.pdf (11 pages, 1093963 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

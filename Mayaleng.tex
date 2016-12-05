@@ -95,6 +95,7 @@ Crear una herramienta de traducción de la lengua maya Kaqchikel.
     \item Crear una aplicación\'on móvil (Android y iOS) para traducción del Kaqchikel.
     \item Dar a conocer la cultura de nuestro pa\'is Guatemala.
     \item Brindar la capacidad a profesores y personas en general de traducir documentos para facilitar su trabajo en los lugares d\'onde imparten clases dentro de nuestro pa\'is y los cuales no dominan el español.
+    \item Tener una herramienta con la cual comunicarnos con personas de nuestro país que no hablan español.
 \end{itemize}
 \newpage
 
@@ -158,11 +159,11 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 	\hline
 	Traducci\'on	 bidireccional & \checkmark & x & \checkmark & x\\
 	\hline
-	Traducci\'on de frases  & \checkmark & x & \checkmark & \checkmark\\
+	Traducci\'on de oraciones  & \checkmark & x & \checkmark & \checkmark\\
 	\hline
-	Traducci\'on precisa & \checkmark & x & \checkmark & \checkmark\\
+	Traducci\'on precisa & \checkmark & x & \checkmark & x\\
 	\hline
-	Herramienta de traducci\'on de documentos & \checkmark & x & \checkmark & \checkmark\\
+	Herramienta de traducci\'on de sitios web & \checkmark & x & x & \checkmark\\
 	\hline
 	\end{tabular}}
 \caption{Comparativa de Funcionalidades}
@@ -181,7 +182,7 @@ Le ahorraremos al usuario tener que escribir algunas de las frases o palabras m\
 	\hline
 	Es gratis  & \checkmark & \checkmark & x & \checkmark\\
 	\hline
-	Siempre disponible & \checkmark & \checkmark & x & \checkmark\\
+	Siempre disponible & \checkmark & x & x & x\\
 	\hline
 	F\'acil de obtener/contactar & \checkmark & \checkmark & x & \checkmark\\
 	\hline
@@ -282,6 +283,7 @@ El idioma kaqchikel forma parte de los idiomas de Mesoamérica provenientes del 
 	\item Sololá: Sololá, Panajachel, San Andrés Semetabaj, San Antonio Palopó, San José Chacayá, Santa Catarina Palopó, Santa Cruz La Laguna, Concepción y San Marcos La Laguna.
 	\item Suchitepéquez: San Antonio Suchitepéquez, San Juan Bautista y Patulul.
 	\item Baja Verapaz: parte del municipio de El Chol.
+	\item Chimaltenango: Tecpán
 \end{itemize}
 Esta área geográfica no ha variado en forma significativa desde el siglo XVI. El kaqchikel  forma parte de la identidad y de los valores culturales y sociales de la región, es un idioma auténtico ya que posee gramática y escritura y es una práctica de derecho lingüístico individual para resguardarlo, estudiarlo y enseñarlo en las escuelas. Constituye junto a las regiones mam y tz’utujil una de las regiones de mayor riqueza lingüística y social en Guatemala. \\
 
@@ -293,7 +295,13 @@ Como se mencionaba el Kaqchikel es un idioma auténtico que posee su gramática,
 
 \subsubsection{Alfabeto}
 El alfabeto kaqchikel está conformado de los siguientes símbolos:\\
-a - ä - b' - ch - ch' - e - ë - i - ï - j - k - l - m - n - o - ö - p - q - q' - r - s - t - t' - tz - tz' - u - ü - w - x - y - '
+a - ä - b' - ch - ch' - e - ë - i - ï - j - k - l - m - n - o - ö - p - q - q' - r - s - t - t' - tz - tz' - u - ü - w - x - y - '\\
+
+Antes de hablar de algunas reglas gramaticales mencionamos algunas particularidades de la pronunciación de algunas letras del alfabeto.\\ 
+
+La letra \textbf{\textit{k}} tiene el mismo sonido que la letra \textit{\textbf{c}} en español.\\
+La vocal con \textbf{'}(saltillo) tiene el sonido normal como si pronunciáramos la vocal en español, con \textbf{\"} (diéresis) tiene un sonido diferente, utilizando un ronquido en la garganta para pronunciarla.\\
+La letra \textbf{\textit{x}} se pronuncia como si se estuviera escribiendo \textbf{\textit{sh}}
 
 \subsubsection{Sustantivos}
 Para los pronombres y sustantivos tenemos las siguientes reglas, hay prefijos que se anteponen dependiendo si el sustantivo empieza con una vocal o con una consonante:
@@ -318,6 +326,7 @@ Para los pronombres y sustantivos tenemos las siguientes reglas, hay prefijos qu
 	\end{tabular}}
 	\caption{Reglas gramaticales de Sustantivos}
 \end{table}
+\newpage
 
 \subsubsection{Plural}
 Para aplicar la regla gramatical al uso de plurales no hay un uso en específico:
@@ -337,7 +346,6 @@ Para aplicar la regla gramatical al uso de plurales no hay un uso en específico
 	\caption{Reglas gramaticales de Plurales}
 \end{table}
 
-\newpage
 \subsubsection{Oraciones}
 En la estructura de una oración en kaqchikel tenemos primero el predicado seguido del sujeto, resaltamos el predicado con negrita:
 \begin{table}[H]
@@ -495,59 +503,33 @@ Basándonos en la respuesta de \textit{Linguakit}, que nos devuelve que palabras
 \subsection{Diagrama Entidad-Relación}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{er}
+	\includegraphics[width=1.1\textwidth]{er}
 	\caption{Diagrama Entidad Relación}
 	\label{fig:er}
 \end{figure}
-La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a Kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc.), y una tercer tabla que nos servirá para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre).\\
-En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tercer tabla donde tenemos las llaves primarias de cada tabla por lo cual no nos toparíamos con ningún registro duplicado.
+La base de datos está compuesta por una tabla principal que contiene el vocabulario, con la palabra en español y su traducción a Kaqchikel, una tabla con la estructura gramatical (sujeto, verbo, adjetivo, etc.), una tabla utilizada para enlazar nuestro vocabulario con el tipo de palabra a la que aplique (por ejemplo: él=pronombre), y una cuarta tabla con las lenguas mayas, que nos servirá para poder traducir más lenguas a futuro teniendo una llave en la tabla de translate.\\
+En nuestro diagrama está contemplado el caso que una palabra pudiese cumplir con más de una regla gramatical, y nos es posible almacenar esa información con nuestra tabla de diccionariokey, donde tenemos las llaves primarias de cada tabla (translate y tipopalabra) por lo cual no nos toparíamos con ningún registro duplicado.
 
 \subsection{Diagrama de Arquitectura}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{arquitectura}
-	\caption{Diagrama de Arquitectura}
-	\label{fig:arq}
-\end{figure}
-
-\newpage
-Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales que constan de la información, que cuenta con nuestro vocabulario, la base de datos, un servicio de migración utilizando la RAE, y el API, el cual divide las oraciones y construye las nuevas en el nuevo lenguaje.
-
-\subsection{Diagrama de Arquitectura con Tecnologías}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{arquitecturalogos}
+	\includegraphics[width=1.0\textwidth]{arquitecturalogos}
 	\caption{Diagrama de Arquitectura con Tecnologías} 
 	\label{fig:arqL}
 \end{figure}
-Diagrama de Arquitectura con logos de cada tecnología.
-
-\subsection{Diagrama de Secuencia - Palabra}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\textwidth]{secuencia}
-	\caption{Diagrama de Secuencia}
-	\label{fig:sec}
-\end{figure}
-Aquí se presenta el flujo que tiene una palabra al ser ingresada por el usuario hasta regresar de nuevo con su respectiva traducción.
+Gráfico de arquitectura de MayaLeng donde explicamos cómo está construido nuestro proyecto, dividido en dos partes principales.\\
+La información, el cual cuenta con nuestro diccionario almacenado en la base de datos de MySQL, un servicio de migración utilizando la RAE, con el propósito de tener el tipo de cada palabra en español contenida en el diccionario.\\
+Tenemos el API, el cual utilizando Linguakit, obtenemos la estructura de las oraciones, un módulo de oraciones que interactúa con Symfony, la base de datos y el API de traducción. Esta infraestructura para retornar la información a la aplicación MayaLeng dónde se realiza la solicitud de traducción de oraciones en español, además utilizando Google Translate podemos traducir de cualquier idioma, primero al español y luego al kaqchikel.
 
 \subsection{Diagrama de Secuencia - Oraciones}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.1\textwidth]{secuenciaoracion}
-	\caption{Diagrama de Secuencia de Oraciones}
-	\label{fig:seco}
-\end{figure}
-Se presenta la secuencia que tiene una oración para ser traducida, muy parecido a la de una palabra, con la diferencia que Linguakit tiene una doble función, darnos el sentido de cada palabra y el sentido de toda la oración.
-
-\subsection{Diagrama de Secuencia - Oraciones en otros Idiomas}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.2\textwidth]{secuenciaidiomas}
+	\includegraphics[width=1.1\textwidth]{secuenciaidiomas}
 	\caption{Diagrama de secuencia de oración en otros idiomas}
 	\label{fig:seci}
 \end{figure}
-Se presenta la secuencia que tiene una oración escrita en otro idioma para ser traducida. Se utiliza Google Translate para realizar esta traducción al español por lo que dicha oración puede ser escrita en cualquier idioma.
+Aquí se presenta el flujo que tiene una oración para ser traducida, la misma secuencia es si fuera una palabra. Linguakit tiene la función de darnos el sentido de cada palabra y su función en la oración.\\
+Se presenta la secuencia que tiene una oración escrita en otro idioma, la cual es ser traducida al español, utilizamos Google Translate para esta tarea, por lo que dicha oración puede ser escrita en cualquier idioma. Si la oración no está en otro idioma no hacemos uso de Google Translate.
 
 \newpage
 \subsection{Diagrama de Casos de Uso}
@@ -557,7 +539,8 @@ Se presenta la secuencia que tiene una oración escrita en otro idioma para ser 
 	\caption{Diagrama de Caso de Uso}
 	\label{fig:caso}
 \end{figure}
-En este diagrama tenemos dos actores que tienen interacción MayaLeng. Contamos con el primer actor que es el usuario, el cual tiene la interacción de traducir palabras, traducir oraciones, y traducir cualquier palabra y oración de un idioma distinto al español, a kaqchikel.
+En este diagrama tenemos dos actores que tienen interacción con MayaLeng. Contamos con el primer actor que es el usuario, el cual puede traducir palabras, traducir oraciones, traducir cualquier palabra y oración de un idioma distinto al español y la traducción de sitios web a kaqchikel.\\
+ML API analiza las oraciones y realiza la traducción del español a kaqchikel.
 \newpage
 
 \subsection{Algoritmos implementados}
@@ -567,6 +550,10 @@ Lo que realiza este algoritmo, el cual es una implementación propia, se describ
 \begin{lstlisting}
 
 Recibe texto
+Si TextoOtroIdioma Entonces
+	Llamada Google API
+	Traducir texto a espanol
+
 Si TextoMuyLargo Entonces
 	Descomponer en oraciones mas cortas
 	

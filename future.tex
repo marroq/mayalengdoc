@@ -1,0 +1,102 @@
+\documentclass[a4paper,openright,11pt]{article}
+\date{}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{color}
+\usepackage{listings}
+
+\begin{document}
+\include{glosarioacronimos}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{\'Indice de tablas}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
+\newpage
+
+\begin{titlepage}
+	\begin{center}
+		\vspace*{-1in}
+		\begin{figure}[htb]
+			\begin{center}
+				\includegraphics[width=10cm]{ug}
+			\end{center}
+		\end{figure}
+		\vspace*{0.1in}
+		\begin{Large}
+			Ingeniería en Sistemas, Informática y \\Ciencias de la Computación\\
+		\end{Large}
+		\vspace*{0.2in}
+		\begin{Large}
+			Seminario Profesional II\\
+		\end{Large}
+		\vspace*{0.9in}
+		\begin{LARGE}
+			\textbf{\LARGE MAYALENG} \\
+			\textbf{\Large Inteligencia Artificial y Machine Learning} \\
+			\begin{figure}[htb]
+				\begin{center}
+					\includegraphics[width=4cm]{ml}
+				\end{center}
+			\end{figure}
+		\end{LARGE}
+		\vspace*{0.9in}
+		\begin{large}
+			Autores:\\
+			Douglas Figueroa \\
+			Alexander Baquiax
+		\end{large}
+		\vspace*{0.3in}
+		\\
+		\rule{90mm}{0.1mm}\\
+		\begin{large}
+			Supervisado por: \\
+			Ing. Jack Trachtenberg \\
+			Ing. Axel Benavides
+		\end{large}
+	\end{center}
+\end{titlepage}
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\pagestyle{fancy}
+\rfoot{\includegraphics[width=.08\textwidth]{ml}}
+\lfoot{MayaLeng}
+
+
+\section{Inteligencia Artificial}
+\newpage
+
+\section{Machine Learning}
+Machine Learning es un subcampo de las Ciencias de la Computación y una rama de la Inteligencia Artificial, el objetivo principal es permitir que las computadoras puedan aprender, lo que se quiere es crear programas capaces de generalizar comportamientos a partir de una información suministrada en forma de ejemplos. En este caso lo que se está realizando es análisis de datos.\\
+
+Y aprender en este contexto dado es identificar patrones complejos en cantidades de datos muy grandes, en nuestro caso, para MayaLeng es identificar frases, palabras, las formas en que se debería de interpretar las palabras en la oración en base a su contexto. Implica que estos sistemas se mejoran de forma autónoma con el tiempo, sin intervención humana.\\
+
+Se tiene una amplia gama de aplicaciones, entre las cuales podemos mencionar los motores de búsqueda, detección de fraude en el uso de tarjetas de crédito, analizar el mercado de valores, reconocimiento del habla y del lenguaje. Hay diferentes algoritmos los cuales se agrupan en una taxonomía (ciencia que trata de los principios, métodos y fines de la clasificación, generalmente científica).
+
+\subsection{¿Qué algoritmo utilizar?}
+Esto lo resolvemos en función de lo que necesitemos obtener como respuesta. Depende del tamaño, de la calidad y la naturaleza de los datos, veremos los tipos de algoritmos que podemos utilizar. Cabe mencionar que no se puede escoger con exactitud el algoritmo sin antes probar.
+
+\subsubsection{Supervisado}
+Este tipo de algoritmo hace predicciones basado en un conjunto de ejemplos, lo realiza buscando patrones, utilizando valores relevantes tales como el día de la semana, la temporada, datos financieros de la empresa, el tipo de sector o la presencia de eventos geopolíticos perjudiciales, y cada algoritmo busca tipos diferentes de patrones. 
+
+\subsection{Sin supervisar}
+Este algoritmo a diferencia del algoritmo de supervisar, no posee etiquetas con los cuales podamos identificar los patrones que necesitamos encontrar, el objetivo de este es organizar los datos de alguna manera o describir su estructura.
+
+\subsection{Aprendizaje de refuerzo}
+El algoritmo elige una acción en respuesta a cada punto de datos, el algoritmo más adelante recibe una notificación que le dice que tan buena fue esa decisión, basado en esa respuesta modifica su estrategia para dar la mejor respuesta. 
+
+\subsection{Redes neuronales}
+Son algoritmos de aprendizaje que están inspirados en el cerebro, es un algoritmo que lleva tiempo obtener resultados muy buenos,  pueden tardar mucho tiempo para entrenarse, especialmente para grandes conjuntos de datos con muchas características, también tienen más parámetros que la mayoría de los algoritmos, lo que implica que el barrido de parámetros alargue mucho el tiempo de entrenamiento. 
+
+
+\pagestyle{fancy}
+\end{document}

@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Inteligencia Artificial}{2}
 \contentsline {section}{\numberline {2}Machine Learning}{3}
 \contentsline {subsection}{\numberline {2.1}\IeC {\textquestiondown }Qu\IeC {\'e} algoritmo utilizar?}{3}
-\contentsline {subsubsection}{\numberline {2.1.1}Supervisado}{3}
-\contentsline {subsection}{\numberline {2.2}Sin supervisar}{3}
-\contentsline {subsection}{\numberline {2.3}Aprendizaje de refuerzo}{4}
-\contentsline {subsection}{\numberline {2.4}Redes neuronales}{4}
+\contentsline {subsection}{\numberline {2.2}Supervisado}{3}
+\contentsline {subsection}{\numberline {2.3}Sin supervisar}{3}
+\contentsline {subsection}{\numberline {2.4}Aprendizaje de refuerzo}{4}
+\contentsline {subsection}{\numberline {2.5}Redes neuronales}{4}
